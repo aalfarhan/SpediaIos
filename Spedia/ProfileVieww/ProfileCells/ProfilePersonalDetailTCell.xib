@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="profilePersonalDetailTCell" rowHeight="236" id="KGk-i7-Jjw" customClass="ProfilePersonalDetailTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="236"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMC-bl-LeL" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                        <rect key="frame" x="105" y="0.0" width="165.5" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Xsg-4b-JkS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" name="AppTextBlack"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mAG-fA-5Gg" userLabel="EmailView">
+                        <rect key="frame" x="16" y="41" width="166.5" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jack@luke323" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fai-bH-spU" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="29.5" width="102" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="3cy-tI-74j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_calendar" translatesAutoresizingMaskIntoConstraints="NO" id="OZw-m2-2QH">
+                                <rect key="frame" x="10" y="20" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="N4d-Us-WeT"/>
+                                    <constraint firstAttribute="height" constant="25" id="qOr-IC-fsV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skd-YD-pw1" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="12.5" width="34.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fai-bH-spU" secondAttribute="trailing" constant="10" id="Cju-am-dJR"/>
+                            <constraint firstItem="OZw-m2-2QH" firstAttribute="centerY" secondItem="mAG-fA-5Gg" secondAttribute="centerY" id="Nam-t4-cbs"/>
+                            <constraint firstAttribute="height" constant="65" id="NwC-lz-GXN"/>
+                            <constraint firstItem="fai-bH-spU" firstAttribute="top" secondItem="skd-YD-pw1" secondAttribute="bottom" id="Rh2-id-zvg"/>
+                            <constraint firstItem="fai-bH-spU" firstAttribute="centerY" secondItem="mAG-fA-5Gg" secondAttribute="centerY" constant="8" id="Vj8-yX-ECz"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="skd-YD-pw1" secondAttribute="trailing" constant="5" id="eaf-OF-4sS"/>
+                            <constraint firstItem="OZw-m2-2QH" firstAttribute="leading" secondItem="mAG-fA-5Gg" secondAttribute="leading" constant="10" id="nhp-Dk-1fr"/>
+                            <constraint firstItem="fai-bH-spU" firstAttribute="leading" secondItem="OZw-m2-2QH" secondAttribute="trailing" constant="8" id="o0V-zw-Shg"/>
+                            <constraint firstItem="skd-YD-pw1" firstAttribute="leading" secondItem="OZw-m2-2QH" secondAttribute="trailing" constant="8" id="xxr-Bq-mSI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-Pc-2Lk" userLabel="FullNameView">
+                        <rect key="frame" x="192.5" y="41" width="166.5" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luke Jack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP1-iP-MnC" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="29.5" width="73" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="aNx-8Z-zhI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_fullname" translatesAutoresizingMaskIntoConstraints="NO" id="9sf-EG-jJ8">
+                                <rect key="frame" x="10" y="20" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="6qW-XJ-kjZ"/>
+                                    <constraint firstAttribute="width" constant="25" id="mGG-hu-tH6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Oz-Gf-Un8" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="12.5" width="64.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Oz-Gf-Un8" secondAttribute="trailing" constant="5" id="G2o-he-MmK"/>
+                            <constraint firstItem="bP1-iP-MnC" firstAttribute="centerY" secondItem="MiH-Pc-2Lk" secondAttribute="centerY" constant="8" id="G5E-Y7-9eo"/>
+                            <constraint firstItem="6Oz-Gf-Un8" firstAttribute="leading" secondItem="9sf-EG-jJ8" secondAttribute="trailing" constant="8" id="Ia4-gI-fXW"/>
+                            <constraint firstItem="9sf-EG-jJ8" firstAttribute="leading" secondItem="MiH-Pc-2Lk" secondAttribute="leading" constant="10" id="NpO-WP-bcJ"/>
+                            <constraint firstItem="bP1-iP-MnC" firstAttribute="top" secondItem="6Oz-Gf-Un8" secondAttribute="bottom" id="Nta-HT-wET"/>
+                            <constraint firstItem="bP1-iP-MnC" firstAttribute="leading" secondItem="9sf-EG-jJ8" secondAttribute="trailing" constant="8" id="ORV-pQ-cJF"/>
+                            <constraint firstItem="9sf-EG-jJ8" firstAttribute="centerY" secondItem="MiH-Pc-2Lk" secondAttribute="centerY" id="WFv-aE-B2Y"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bP1-iP-MnC" secondAttribute="trailing" constant="10" id="dfs-k2-rZm"/>
+                            <constraint firstAttribute="height" constant="65" id="gHY-hN-Kvo"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UnD-sc-wYL" userLabel="PhoneView">
+                        <rect key="frame" x="16" y="121" width="166.5" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+965 22415801" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVY-hh-Cni" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="29.5" width="115.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="uga-Qu-U54"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_phone" translatesAutoresizingMaskIntoConstraints="NO" id="C8x-q2-fx6">
+                                <rect key="frame" x="10" y="20" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="Vi7-KA-sXi"/>
+                                    <constraint firstAttribute="height" constant="25" id="ZwP-WT-Dna"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-bX-yHS" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="12.5" width="96" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UVY-hh-Cni" firstAttribute="top" secondItem="TF7-bX-yHS" secondAttribute="bottom" id="EGl-hp-xFO"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UVY-hh-Cni" secondAttribute="trailing" constant="5" id="GI1-ux-y9U"/>
+                            <constraint firstItem="C8x-q2-fx6" firstAttribute="leading" secondItem="UnD-sc-wYL" secondAttribute="leading" constant="10" id="GbT-c2-fL2"/>
+                            <constraint firstItem="TF7-bX-yHS" firstAttribute="leading" secondItem="C8x-q2-fx6" secondAttribute="trailing" constant="8" id="WRb-q0-i8W"/>
+                            <constraint firstItem="UVY-hh-Cni" firstAttribute="centerY" secondItem="UnD-sc-wYL" secondAttribute="centerY" constant="8" id="ZMR-7w-b56"/>
+                            <constraint firstItem="C8x-q2-fx6" firstAttribute="centerY" secondItem="UnD-sc-wYL" secondAttribute="centerY" id="pUi-sY-Egf"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TF7-bX-yHS" secondAttribute="trailing" constant="5" id="rzU-aw-3Me"/>
+                            <constraint firstItem="UVY-hh-Cni" firstAttribute="leading" secondItem="C8x-q2-fx6" secondAttribute="trailing" constant="8" id="tkY-rl-sUC"/>
+                            <constraint firstAttribute="height" constant="65" id="zdF-2e-sSc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uib-T8-QXI" userLabel="LocationView">
+                        <rect key="frame" x="192.5" y="121" width="166.5" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KC1003JTY23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzn-fm-mmO" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="29.5" width="104.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="JiS-58-Hf9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="membership_icon" translatesAutoresizingMaskIntoConstraints="NO" id="H8k-A5-ofi">
+                                <rect key="frame" x="10" y="20" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="7Kh-xq-jyO"/>
+                                    <constraint firstAttribute="height" constant="25" id="v15-4L-B4N"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check_green_icon" translatesAutoresizingMaskIntoConstraints="NO" id="02T-Qk-DTd">
+                                <rect key="frame" x="4" y="4" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="6S0-bH-wUu"/>
+                                    <constraint firstAttribute="width" constant="10" id="Cxz-vh-vzd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Membership No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ms-B5-fre" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="43" y="12.5" width="102.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45899999139999997" green="0.75300002099999996" blue="0.56900000569999998" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jzn-fm-mmO" firstAttribute="centerY" secondItem="Uib-T8-QXI" secondAttribute="centerY" constant="8" id="0q4-35-fcG"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jzn-fm-mmO" secondAttribute="trailing" constant="10" id="5H1-8t-hd5"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Ms-B5-fre" secondAttribute="trailing" constant="5" id="9RP-8x-g54"/>
+                            <constraint firstItem="H8k-A5-ofi" firstAttribute="centerY" secondItem="Uib-T8-QXI" secondAttribute="centerY" id="9uc-5H-xbH"/>
+                            <constraint firstAttribute="height" constant="65" id="FwL-Ib-pYV"/>
+                            <constraint firstItem="7Ms-B5-fre" firstAttribute="leading" secondItem="H8k-A5-ofi" secondAttribute="trailing" constant="8" id="GIh-3O-szP"/>
+                            <constraint firstItem="Jzn-fm-mmO" firstAttribute="top" secondItem="7Ms-B5-fre" secondAttribute="bottom" id="GVs-YQ-hns"/>
+                            <constraint firstItem="02T-Qk-DTd" firstAttribute="leading" secondItem="Uib-T8-QXI" secondAttribute="leading" constant="4" id="PEP-Ab-sUU"/>
+                            <constraint firstItem="Jzn-fm-mmO" firstAttribute="leading" secondItem="H8k-A5-ofi" secondAttribute="trailing" constant="8" id="bYx-2U-oib"/>
+                            <constraint firstItem="02T-Qk-DTd" firstAttribute="top" secondItem="Uib-T8-QXI" secondAttribute="top" constant="4" id="cfY-U9-8MN"/>
+                            <constraint firstItem="H8k-A5-ofi" firstAttribute="leading" secondItem="Uib-T8-QXI" secondAttribute="leading" constant="10" id="gAC-gw-42o"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MiH-Pc-2Lk" firstAttribute="leading" secondItem="mAG-fA-5Gg" secondAttribute="trailing" constant="10" id="1J4-bO-39m"/>
+                    <constraint firstItem="Uib-T8-QXI" firstAttribute="top" secondItem="MiH-Pc-2Lk" secondAttribute="bottom" constant="15" id="3AA-Y1-18i"/>
+                    <constraint firstItem="Uib-T8-QXI" firstAttribute="width" secondItem="UnD-sc-wYL" secondAttribute="width" id="AKQ-XE-Aex"/>
+                    <constraint firstItem="cMC-bl-LeL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Amq-jK-iHR"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="UnD-sc-wYL" secondAttribute="bottom" constant="30" id="GEc-2g-hIL"/>
+                    <constraint firstItem="Uib-T8-QXI" firstAttribute="trailing" secondItem="MiH-Pc-2Lk" secondAttribute="trailing" id="HYc-oa-oMz"/>
+                    <constraint firstItem="MiH-Pc-2Lk" firstAttribute="width" secondItem="mAG-fA-5Gg" secondAttribute="width" id="I6W-zT-Uc5"/>
+                    <constraint firstItem="cMC-bl-LeL" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Mde-kD-H3W"/>
+                    <constraint firstItem="Uib-T8-QXI" firstAttribute="leading" secondItem="UnD-sc-wYL" secondAttribute="trailing" constant="10" id="edp-5L-UZV"/>
+                    <constraint firstItem="mAG-fA-5Gg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="fFW-vC-dmH"/>
+                    <constraint firstItem="UnD-sc-wYL" firstAttribute="leading" secondItem="mAG-fA-5Gg" secondAttribute="leading" id="jJ8-62-eb3"/>
+                    <constraint firstItem="mAG-fA-5Gg" firstAttribute="top" secondItem="cMC-bl-LeL" secondAttribute="bottom" constant="16" id="kf8-zJ-2aI"/>
+                    <constraint firstItem="MiH-Pc-2Lk" firstAttribute="top" secondItem="cMC-bl-LeL" secondAttribute="bottom" constant="16" id="pH8-Df-wsg"/>
+                    <constraint firstAttribute="trailing" secondItem="MiH-Pc-2Lk" secondAttribute="trailing" constant="16" id="qnQ-Sz-hbb"/>
+                    <constraint firstItem="UnD-sc-wYL" firstAttribute="top" secondItem="mAG-fA-5Gg" secondAttribute="bottom" constant="15" id="uYI-du-h1Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="emailLbl" destination="skd-YD-pw1" id="rGk-v5-9mM"/>
+                <outlet property="fullNameLbl" destination="6Oz-Gf-Un8" id="e9o-0x-Vbq"/>
+                <outlet property="leftPedding" destination="fFW-vC-dmH" id="Sby-VS-9mp"/>
+                <outlet property="locationLbl" destination="7Ms-B5-fre" id="xDf-5j-Ak2"/>
+                <outlet property="membershipIcon" destination="02T-Qk-DTd" id="Dbe-QO-l3W"/>
+                <outlet property="personalInfoLbl" destination="cMC-bl-LeL" id="h9R-cQ-nCd"/>
+                <outlet property="phoneLbl" destination="UVY-hh-Cni" id="Whw-lg-XeX"/>
+                <outlet property="profileFullNameLbl" destination="bP1-iP-MnC" id="Qiz-fg-LfQ"/>
+                <outlet property="profileLocationLabel" destination="Jzn-fm-mmO" id="siy-R0-91k"/>
+                <outlet property="profileUsernameLbl" destination="fai-bH-spU" id="pqg-XB-RyJ"/>
+                <outlet property="rightPedding" destination="qnQ-Sz-hbb" id="r2I-En-1nB"/>
+                <outlet property="studentPhoneLbl" destination="TF7-bX-yHS" id="nDE-JN-xXi"/>
+            </connections>
+            <point key="canvasLocation" x="139.85507246376812" y="175.44642857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check_green_icon" width="30" height="30"/>
+        <image name="icon_calendar" width="60" height="60"/>
+        <image name="icon_fullname" width="60" height="60"/>
+        <image name="icon_phone" width="60" height="60"/>
+        <image name="membership_icon" width="60" height="60"/>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

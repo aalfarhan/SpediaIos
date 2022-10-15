@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="universitySubjectCollCell" id="Fz9-fo-1ol" customClass="UniversitySubjectCollCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j9S-wA-xEt">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jze-Pe-eVh">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CR-hu-BlV" userLabel="BlackGradientView" customClass="GradientView" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showGradient" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" white="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTopToBottom" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundImage" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="BorderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 Chapter Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcG-fA-9QW" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="15" y="123" width="94" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduction to Ecology" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNI-Wy-iQP" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="15" y="79.5" width="92.5" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0Y-dN-UCF" userLabel="TabButton">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="145"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0CR-hu-BlV" secondAttribute="bottom" id="3FH-er-6eQ"/>
+                            <constraint firstItem="nNI-Wy-iQP" firstAttribute="leading" secondItem="j9S-wA-xEt" secondAttribute="leading" constant="15" id="6Xa-aj-4DT"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nNI-Wy-iQP" secondAttribute="trailing" constant="15" id="9Vy-vh-h3x"/>
+                            <constraint firstItem="jze-Pe-eVh" firstAttribute="top" secondItem="j9S-wA-xEt" secondAttribute="top" id="G4r-KS-CHP"/>
+                            <constraint firstItem="qcG-fA-9QW" firstAttribute="top" secondItem="nNI-Wy-iQP" secondAttribute="bottom" constant="5" id="Gye-xv-u1c"/>
+                            <constraint firstItem="0CR-hu-BlV" firstAttribute="top" secondItem="j9S-wA-xEt" secondAttribute="top" id="VTO-4W-a3A"/>
+                            <constraint firstItem="qcG-fA-9QW" firstAttribute="leading" secondItem="j9S-wA-xEt" secondAttribute="leading" constant="15" id="VfG-l3-jiZ"/>
+                            <constraint firstAttribute="bottom" secondItem="qcG-fA-9QW" secondAttribute="bottom" constant="10" id="YR3-KL-0Q2"/>
+                            <constraint firstItem="jze-Pe-eVh" firstAttribute="leading" secondItem="j9S-wA-xEt" secondAttribute="leading" id="jlu-Td-xds"/>
+                            <constraint firstAttribute="bottom" secondItem="jze-Pe-eVh" secondAttribute="bottom" id="onD-fn-Nny"/>
+                            <constraint firstAttribute="trailing" secondItem="0CR-hu-BlV" secondAttribute="trailing" id="qSR-uu-LTi"/>
+                            <constraint firstAttribute="trailing" secondItem="jze-Pe-eVh" secondAttribute="trailing" id="ucB-Ho-U9q"/>
+                            <constraint firstItem="0CR-hu-BlV" firstAttribute="leading" secondItem="j9S-wA-xEt" secondAttribute="leading" id="zMy-m1-4jL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="WkT-hL-eTW"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="j9S-wA-xEt" secondAttribute="trailing" id="1dP-df-K1K"/>
+                <constraint firstItem="j9S-wA-xEt" firstAttribute="top" secondItem="Fz9-fo-1ol" secondAttribute="top" id="hC4-Mo-9bv"/>
+                <constraint firstAttribute="bottom" secondItem="j9S-wA-xEt" secondAttribute="bottom" id="tgt-Nd-B4F"/>
+                <constraint firstItem="j9S-wA-xEt" firstAttribute="leading" secondItem="Fz9-fo-1ol" secondAttribute="leading" id="wmw-BH-Pva"/>
+            </constraints>
+            <size key="customSize" width="206" height="243"/>
+            <connections>
+                <outlet property="bkgImageView" destination="jze-Pe-eVh" id="Xyc-es-5PY"/>
+                <outlet property="chanpterCountLbl" destination="qcG-fA-9QW" id="eNA-bR-28e"/>
+                <outlet property="subjectNameLbl" destination="nNI-Wy-iQP" id="pdt-qD-Qu7"/>
+                <outlet property="tabButton" destination="m0Y-dN-UCF" id="Qvv-NJ-tqo"/>
+            </connections>
+            <point key="canvasLocation" x="238" y="97"/>
+        </collectionViewCell>
+    </objects>
+</document>

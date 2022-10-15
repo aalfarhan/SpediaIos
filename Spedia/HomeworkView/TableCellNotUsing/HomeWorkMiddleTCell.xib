@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell hidden="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeWorkMiddleTCell" rowHeight="239" id="KGk-i7-Jjw" customClass="HomeWorkMiddleTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="239"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1AY-8P-KyA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="219"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1W-I1-Z7u" userLabel="CircleColorView">
+                                <rect key="frame" x="15" y="15" width="80" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status Label  Statsu Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Bvq-9G-WWl" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="25.5" width="70" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="QP5-Ri-doK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J9f-ZQ-6pc" userLabel="NumberView">
+                                        <rect key="frame" x="23.5" y="7" width="33" height="66"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUK-J4-mhC" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="3.5" width="33" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vl-OE-sJ0" userLabel="LineLabel">
+                                                <rect key="frame" x="0.0" y="32.5" width="33" height="1"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="fDS-OD-sKI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfM-rw-MGP" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="33.5" width="33" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="3vl-OE-sJ0" firstAttribute="centerY" secondItem="J9f-ZQ-6pc" secondAttribute="centerY" id="06R-lh-Cgo"/>
+                                            <constraint firstAttribute="trailing" secondItem="uUK-J4-mhC" secondAttribute="trailing" id="343-RK-Dmb"/>
+                                            <constraint firstItem="SfM-rw-MGP" firstAttribute="leading" secondItem="J9f-ZQ-6pc" secondAttribute="leading" id="KZw-5s-G7Z"/>
+                                            <constraint firstAttribute="width" constant="33" id="LPg-C1-cXI"/>
+                                            <constraint firstAttribute="trailing" secondItem="3vl-OE-sJ0" secondAttribute="trailing" id="d3y-ut-jGM"/>
+                                            <constraint firstItem="3vl-OE-sJ0" firstAttribute="centerX" secondItem="J9f-ZQ-6pc" secondAttribute="centerX" id="fGm-3Z-EGQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="SfM-rw-MGP" secondAttribute="trailing" id="kMJ-2v-2Yf"/>
+                                            <constraint firstItem="3vl-OE-sJ0" firstAttribute="leading" secondItem="J9f-ZQ-6pc" secondAttribute="leading" id="mYp-jT-HWa"/>
+                                            <constraint firstItem="uUK-J4-mhC" firstAttribute="leading" secondItem="J9f-ZQ-6pc" secondAttribute="leading" id="uU6-UQ-nH6"/>
+                                            <constraint firstAttribute="height" constant="66" id="uZN-8M-SAc"/>
+                                            <constraint firstItem="3vl-OE-sJ0" firstAttribute="top" secondItem="uUK-J4-mhC" secondAttribute="bottom" id="vHg-MN-F6N"/>
+                                            <constraint firstItem="SfM-rw-MGP" firstAttribute="top" secondItem="3vl-OE-sJ0" secondAttribute="bottom" id="zWN-Fd-67n"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="AppLightGreen"/>
+                                <constraints>
+                                    <constraint firstItem="Bvq-9G-WWl" firstAttribute="centerY" secondItem="E1W-I1-Z7u" secondAttribute="centerY" id="0NC-8x-4qA"/>
+                                    <constraint firstAttribute="height" constant="80" id="KaP-hE-n8y"/>
+                                    <constraint firstItem="Bvq-9G-WWl" firstAttribute="centerX" secondItem="E1W-I1-Z7u" secondAttribute="centerX" id="Llr-JZ-Dbh"/>
+                                    <constraint firstItem="J9f-ZQ-6pc" firstAttribute="centerY" secondItem="E1W-I1-Z7u" secondAttribute="centerY" id="N5f-u5-QDm"/>
+                                    <constraint firstItem="J9f-ZQ-6pc" firstAttribute="centerX" secondItem="E1W-I1-Z7u" secondAttribute="centerX" id="ple-6p-HYR"/>
+                                    <constraint firstAttribute="width" constant="80" id="wDb-sB-P7o"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNd-ay-kn0" userLabel="Title" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="115" y="15" width="31.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" name="AppBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubTitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2C-21-Nn7" userLabel="SubTitle" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="115" y="42.5" width="46" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="AppPlaceholderGray25"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3Z-Al-YTW" userLabel="LineLabel">
+                                <rect key="frame" x="15" y="117" width="290" height="1"/>
+                                <color key="backgroundColor" name="AppBorderGray"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="gib-2T-pXH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Jfn-cH-82O">
+                                <rect key="frame" x="15" y="133" width="290" height="68"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pac-wU-bgr" userLabel="UploadVieww">
+                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enc-HO-8GR" userLabel="UploadLabel" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" name="AppPlaceholderGray25"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRt-Kf-iW2" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="29.5" width="137.5" height="40"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="CnO-Ww-ilU"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
+                                                <state key="normal" title="Upload" image="upload_icon_20px.png">
+                                                    <color key="titleColor" name="AppLimeGreen"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                                        <color key="value" name="AppLimeGreen"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UE-gZ-mjF" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="29.5" width="137.5" height="40"/>
+                                                <color key="backgroundColor" red="0.45882352941176469" green="0.75294117647058822" blue="0.56862745098039214" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Jw9-GK-nVP"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="14" minY="0.0" maxX="14" maxY="0.0"/>
+                                                <state key="normal" title="Uploaded">
+                                                    <color key="titleColor" name="AppBlack"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="enc-HO-8GR" firstAttribute="leading" secondItem="Pac-wU-bgr" secondAttribute="leading" id="0pd-kJ-HB9"/>
+                                            <constraint firstAttribute="trailing" secondItem="rRt-Kf-iW2" secondAttribute="trailing" id="13Z-Q8-pjS"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="enc-HO-8GR" secondAttribute="trailing" constant="8" id="Med-r2-ECo"/>
+                                            <constraint firstItem="8UE-gZ-mjF" firstAttribute="trailing" secondItem="rRt-Kf-iW2" secondAttribute="trailing" id="TIb-Ph-zoG"/>
+                                            <constraint firstItem="8UE-gZ-mjF" firstAttribute="centerY" secondItem="rRt-Kf-iW2" secondAttribute="centerY" id="cch-kN-iCP"/>
+                                            <constraint firstItem="enc-HO-8GR" firstAttribute="top" secondItem="Pac-wU-bgr" secondAttribute="top" id="dAb-dI-zQ8"/>
+                                            <constraint firstItem="8UE-gZ-mjF" firstAttribute="leading" secondItem="rRt-Kf-iW2" secondAttribute="leading" id="mQv-mH-l3M"/>
+                                            <constraint firstItem="rRt-Kf-iW2" firstAttribute="leading" secondItem="enc-HO-8GR" secondAttribute="leading" id="oKh-pr-H7U"/>
+                                            <constraint firstItem="8UE-gZ-mjF" firstAttribute="centerX" secondItem="rRt-Kf-iW2" secondAttribute="centerX" id="rNv-kh-RiZ"/>
+                                            <constraint firstItem="rRt-Kf-iW2" firstAttribute="top" secondItem="enc-HO-8GR" secondAttribute="bottom" constant="15" id="xRZ-cX-fpv"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-EZ-G2C" userLabel="DownloadVieww">
+                                        <rect key="frame" x="152.5" y="0.0" width="137.5" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IN-52-Q9r" userLabel="UploadLabel" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="116.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" name="AppPlaceholderGray25"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-Fa-Iiv" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="29.5" width="137.5" height="40"/>
+                                                <color key="backgroundColor" name="AppLightGreen"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="aNS-XS-gYT"/>
+                                                </constraints>
+                                                <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                                <state key="normal" title="Download" image="icon_download_20px.png">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="B6D-Fa-Iiv" firstAttribute="top" secondItem="5IN-52-Q9r" secondAttribute="bottom" constant="15" id="Dbd-0D-qnY"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5IN-52-Q9r" secondAttribute="trailing" constant="8" id="Nas-wk-rEk"/>
+                                            <constraint firstItem="5IN-52-Q9r" firstAttribute="top" secondItem="PU7-EZ-G2C" secondAttribute="top" id="T2B-fc-yTM"/>
+                                            <constraint firstItem="B6D-Fa-Iiv" firstAttribute="leading" secondItem="5IN-52-Q9r" secondAttribute="leading" id="aNA-HG-Cb3"/>
+                                            <constraint firstItem="5IN-52-Q9r" firstAttribute="leading" secondItem="PU7-EZ-G2C" secondAttribute="leading" id="l4O-Y4-gHk"/>
+                                            <constraint firstAttribute="trailing" secondItem="B6D-Fa-Iiv" secondAttribute="trailing" id="mDM-pS-Gfh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="opp-CL-wIm"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U3Z-Al-YTW" firstAttribute="top" relation="greaterThanOrEqual" secondItem="v2C-21-Nn7" secondAttribute="bottom" constant="15" id="4Iq-ec-4j1"/>
+                            <constraint firstAttribute="bottom" secondItem="Jfn-cH-82O" secondAttribute="bottom" constant="18" id="5Bk-Le-pNl"/>
+                            <constraint firstItem="E1W-I1-Z7u" firstAttribute="top" secondItem="1AY-8P-KyA" secondAttribute="top" constant="15" id="A6T-YM-U1o"/>
+                            <constraint firstItem="v2C-21-Nn7" firstAttribute="leading" secondItem="sNd-ay-kn0" secondAttribute="leading" id="O3z-HO-zm9"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v2C-21-Nn7" secondAttribute="trailing" constant="10" id="Pn4-LX-JvZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Jfn-cH-82O" secondAttribute="trailing" constant="15" id="UB5-9U-8vf"/>
+                            <constraint firstItem="U3Z-Al-YTW" firstAttribute="leading" secondItem="1AY-8P-KyA" secondAttribute="leading" constant="15" id="UaK-nb-myu"/>
+                            <constraint firstAttribute="trailing" secondItem="U3Z-Al-YTW" secondAttribute="trailing" constant="15" id="Ul5-qH-obk"/>
+                            <constraint firstItem="sNd-ay-kn0" firstAttribute="top" secondItem="E1W-I1-Z7u" secondAttribute="top" id="Xe8-Pd-C9l"/>
+                            <constraint firstItem="v2C-21-Nn7" firstAttribute="top" secondItem="sNd-ay-kn0" secondAttribute="bottom" constant="8" id="ZkM-f1-GQH"/>
+                            <constraint firstItem="E1W-I1-Z7u" firstAttribute="leading" secondItem="1AY-8P-KyA" secondAttribute="leading" constant="15" id="frI-xL-399"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sNd-ay-kn0" secondAttribute="trailing" constant="10" id="jhF-kX-qc9"/>
+                            <constraint firstItem="U3Z-Al-YTW" firstAttribute="top" relation="greaterThanOrEqual" secondItem="E1W-I1-Z7u" secondAttribute="bottom" constant="20" id="kKW-pF-S8F"/>
+                            <constraint firstItem="sNd-ay-kn0" firstAttribute="leading" secondItem="E1W-I1-Z7u" secondAttribute="trailing" constant="20" id="tek-8f-qLF"/>
+                            <constraint firstItem="Jfn-cH-82O" firstAttribute="top" secondItem="U3Z-Al-YTW" secondAttribute="bottom" constant="15" id="xj3-Hj-1Cc"/>
+                            <constraint firstItem="Jfn-cH-82O" firstAttribute="leading" secondItem="1AY-8P-KyA" secondAttribute="leading" constant="15" id="yxe-KC-giR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1AY-8P-KyA" secondAttribute="trailing" id="8T7-9N-3M3"/>
+                    <constraint firstItem="1AY-8P-KyA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OLY-hj-GIq"/>
+                    <constraint firstItem="1AY-8P-KyA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WYQ-5H-UTB"/>
+                    <constraint firstAttribute="bottom" secondItem="1AY-8P-KyA" secondAttribute="bottom" constant="20" id="XK5-t0-OL2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="circleColorView" destination="E1W-I1-Z7u" id="WCL-KU-CYe"/>
+                <outlet property="containerVieww" destination="1AY-8P-KyA" id="A5h-7F-XDq"/>
+                <outlet property="downloadButton" destination="B6D-Fa-Iiv" id="KFL-EQ-klG"/>
+                <outlet property="downloadContainerVieww" destination="PU7-EZ-G2C" id="Xut-w5-fB3"/>
+                <outlet property="downloadQuestionPHLbl" destination="5IN-52-Q9r" id="2rR-jt-ODh"/>
+                <outlet property="marksContainerVieww" destination="J9f-ZQ-6pc" id="Zhp-ay-CZx"/>
+                <outlet property="pointsGetsLabel" destination="uUK-J4-mhC" id="hfR-hA-7Fi"/>
+                <outlet property="statusOfHomeworkLabel" destination="Bvq-9G-WWl" id="aE0-fR-Z4y"/>
+                <outlet property="subTitleLabel" destination="v2C-21-Nn7" id="hpo-Mf-NgM"/>
+                <outlet property="titleLabel" destination="sNd-ay-kn0" id="eCY-BU-1I3"/>
+                <outlet property="totalPointsLabel" destination="SfM-rw-MGP" id="j94-fp-5n1"/>
+                <outlet property="uploadAnswerPHLbl" destination="enc-HO-8GR" id="CBm-F3-oHu"/>
+                <outlet property="uploadButton" destination="rRt-Kf-iW2" id="T2t-Cc-9QB"/>
+                <outlet property="uploadContainerVieww" destination="Pac-wU-bgr" id="X3e-xC-zwy"/>
+                <outlet property="uploadedButton" destination="8UE-gZ-mjF" id="GbO-oH-rpb"/>
+            </connections>
+            <point key="canvasLocation" x="147.82608695652175" y="167.74553571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_download_20px.png" width="6.6666665077209473" height="6.6666665077209473"/>
+        <image name="upload_icon_20px.png" width="6.6666665077209473" height="6.6666665077209473"/>
+        <namedColor name="AppBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppBorderGray">
+            <color red="0.9570000171661377" green="0.9570000171661377" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppLightGreen">
+            <color red="0.050999999046325684" green="0.69800001382827759" blue="0.69800001382827759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppLimeGreen">
+            <color red="0.45899999141693115" green="0.75300002098083496" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppPlaceholderGray25">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "book_green_pdf_icon_new.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

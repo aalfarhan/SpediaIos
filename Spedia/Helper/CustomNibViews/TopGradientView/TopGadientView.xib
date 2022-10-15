@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopGadientView" customModule="Spedia" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="SQj-Ud-aC9" id="tqO-UJ-ACm"/>
+                <outlet property="buttonsStackView" destination="XVd-7b-e53" id="hDP-aN-5cF"/>
+                <outlet property="buttonsStackViewWitdhConst" destination="LL3-qe-BE6" id="z8f-Yo-9fM"/>
+                <outlet property="containerVieww" destination="iN0-l3-epB" id="bmS-nB-j8N"/>
+                <outlet property="headerTitle" destination="Gfy-os-TX1" id="Jr8-Dq-Riw"/>
+                <outlet property="headerTitleTopConst" destination="U4W-dq-Lwl" id="LNy-41-JgF"/>
+                <outlet property="heightConst" destination="ug0-hW-BbD" id="vbH-nP-AEv"/>
+                <outlet property="leftSideButton" destination="OLN-Wp-kfC" id="u6j-ZU-aGa"/>
+                <outlet property="noDataLbl" destination="lwj-Sc-z8h" id="rir-iJ-fTG"/>
+                <outlet property="noDataView" destination="9PN-0Y-LJe" id="EpF-VW-05a"/>
+                <outlet property="refreshButton" destination="EOi-cm-Avj" id="UEZ-6q-3Xd"/>
+                <outlet property="refreshButtonHeight" destination="lq2-FA-TGJ" id="sV0-gh-iUH"/>
+                <outlet property="rightSideButton" destination="izh-Wh-1WN" id="wQp-qm-R82"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_nav_bar_bkg_pdf" translatesAutoresizingMaskIntoConstraints="NO" id="9jt-NT-qWq">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="124"/>
+                </imageView>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MS-s1-V5d" userLabel="DynamicEmptyStatusHeightView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aeY-PN-Y4M" userLabel="HeaderVieww">
+                    <rect key="frame" x="0.0" y="44" width="414" height="80"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Gfy-os-TX1" userLabel="HeaderTitle" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                            <rect key="frame" x="70" y="12" width="274" height="29"/>
+                            <string key="text">Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title  Header Title Header Title  Header Title  Header Title  </string>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <stackView hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="XVd-7b-e53" userLabel="ButtonsStackView">
+                            <rect key="frame" x="44.5" y="25" width="325" height="37"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLN-Wp-kfC" userLabel="LeftSideButton" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="155" height="37"/>
+                                    <color key="backgroundColor" name="AppLightGreen"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" name="AppLightGreen"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="showShadowBool" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="leftButtonAction:" destination="-1" eventType="touchUpInside" id="z6K-hF-2Du"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izh-Wh-1WN" userLabel="RightSideButton" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                    <rect key="frame" x="170" y="0.0" width="155" height="37"/>
+                                    <color key="backgroundColor" name="AppLightGreen"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" name="AppLightGreen"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="showShadowBool" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="rightButtonAction:" destination="-1" eventType="touchUpInside" id="XEB-3s-Wlz"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="325" id="LL3-qe-BE6"/>
+                                <constraint firstAttribute="height" constant="37" id="atJ-H8-Xuz"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQj-Ud-aC9" userLabel="BackButton">
+                            <rect key="frame" x="16" y="4.5" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="gLE-O5-IlI"/>
+                                <constraint firstAttribute="width" constant="44" id="puS-Hh-24c"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                            <state key="normal" image="back_icon_24pt_pdf">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="Bhv-v6-Fbi"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="XVd-7b-e53" firstAttribute="centerX" secondItem="aeY-PN-Y4M" secondAttribute="centerX" id="Az5-bb-hml"/>
+                        <constraint firstAttribute="bottom" secondItem="XVd-7b-e53" secondAttribute="bottom" constant="18" id="Eq2-YW-sw8"/>
+                        <constraint firstAttribute="trailing" secondItem="Gfy-os-TX1" secondAttribute="trailing" constant="70" id="H9Z-xP-WpH"/>
+                        <constraint firstItem="Gfy-os-TX1" firstAttribute="top" secondItem="aeY-PN-Y4M" secondAttribute="top" constant="12" id="U4W-dq-Lwl"/>
+                        <constraint firstItem="SQj-Ud-aC9" firstAttribute="leading" secondItem="aeY-PN-Y4M" secondAttribute="leading" constant="16" id="Ubz-Qx-RQG"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Gfy-os-TX1" secondAttribute="bottom" constant="6" id="X1b-Qw-ULe"/>
+                        <constraint firstItem="Gfy-os-TX1" firstAttribute="leading" secondItem="aeY-PN-Y4M" secondAttribute="leading" constant="70" id="imj-49-YFY"/>
+                        <constraint firstAttribute="height" constant="80" id="ug0-hW-BbD"/>
+                        <constraint firstItem="SQj-Ud-aC9" firstAttribute="centerY" secondItem="Gfy-os-TX1" secondAttribute="centerY" id="xsV-BV-DA5"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9PN-0Y-LJe" userLabel="NoDataView">
+                    <rect key="frame" x="35.5" y="329" width="343" height="318"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tDd-zB-vbR" userLabel="ShadowView" customClass="ShadowView" customModule="Spedia" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="318"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                    <color key="value" name="DropShadowBlackColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow_smily_icon" translatesAutoresizingMaskIntoConstraints="NO" id="4UF-zy-O1v">
+                            <rect key="frame" x="104" y="50" width="135" height="135"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="135" id="9Gg-If-U7A"/>
+                                <constraint firstAttribute="width" constant="135" id="kFM-E6-3vl"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Page you are looking for was not found. Perhaps you can try later!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwj-Sc-z8h" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                            <rect key="frame" x="20" y="205" width="303" height="43"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" name="AppTextBlack"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOi-cm-Avj" userLabel="RefreshButton" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                            <rect key="frame" x="71.5" y="268" width="200" height="0.0"/>
+                            <color key="backgroundColor" name="AppLightGreen"/>
+                            <constraints>
+                                <constraint firstAttribute="height" id="lq2-FA-TGJ"/>
+                                <constraint firstAttribute="width" constant="200" id="z54-FX-jV2"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="contentEdgeInsets" minX="14" minY="0.0" maxX="14" maxY="0.0"/>
+                            <state key="normal" title="Refresh Now">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="ExBold"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="refreshButtonAction:" destination="-1" eventType="touchUpInside" id="TvM-BZ-TZa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="tDd-zB-vbR" secondAttribute="trailing" id="5Pn-9p-swZ"/>
+                        <constraint firstItem="lwj-Sc-z8h" firstAttribute="leading" secondItem="9PN-0Y-LJe" secondAttribute="leading" constant="20" id="5vg-CQ-RLy"/>
+                        <constraint firstItem="EOi-cm-Avj" firstAttribute="centerX" secondItem="lwj-Sc-z8h" secondAttribute="centerX" id="6iu-x5-Xxm"/>
+                        <constraint firstAttribute="width" constant="343" id="NCb-vC-PFb"/>
+                        <constraint firstItem="4UF-zy-O1v" firstAttribute="top" secondItem="9PN-0Y-LJe" secondAttribute="top" constant="50" id="Pmb-XZ-uW6"/>
+                        <constraint firstItem="tDd-zB-vbR" firstAttribute="leading" secondItem="9PN-0Y-LJe" secondAttribute="leading" id="Vo2-xR-GqU"/>
+                        <constraint firstItem="tDd-zB-vbR" firstAttribute="top" secondItem="9PN-0Y-LJe" secondAttribute="top" id="ddF-cv-SU4"/>
+                        <constraint firstAttribute="trailing" secondItem="lwj-Sc-z8h" secondAttribute="trailing" constant="20" id="kE6-85-cRa"/>
+                        <constraint firstAttribute="bottom" secondItem="tDd-zB-vbR" secondAttribute="bottom" id="kyD-Kx-R3E"/>
+                        <constraint firstItem="EOi-cm-Avj" firstAttribute="top" secondItem="lwj-Sc-z8h" secondAttribute="bottom" constant="20" id="pfV-rQ-bm8"/>
+                        <constraint firstItem="4UF-zy-O1v" firstAttribute="centerX" secondItem="9PN-0Y-LJe" secondAttribute="centerX" id="uDw-qa-igK"/>
+                        <constraint firstAttribute="bottom" secondItem="EOi-cm-Avj" secondAttribute="bottom" constant="50" id="wML-hP-Plf"/>
+                        <constraint firstItem="lwj-Sc-z8h" firstAttribute="top" secondItem="4UF-zy-O1v" secondAttribute="bottom" constant="20" id="x7f-dM-g7N"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aeY-PN-Y4M" secondAttribute="trailing" id="0Up-ti-AEk"/>
+                <constraint firstItem="aeY-PN-Y4M" firstAttribute="top" secondItem="4MS-s1-V5d" secondAttribute="bottom" id="2gG-Wl-Kyk"/>
+                <constraint firstItem="9PN-0Y-LJe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="94N-GJ-DEh"/>
+                <constraint firstItem="9jt-NT-qWq" firstAttribute="trailing" secondItem="aeY-PN-Y4M" secondAttribute="trailing" id="Vis-yj-cX4"/>
+                <constraint firstItem="9jt-NT-qWq" firstAttribute="top" secondItem="4MS-s1-V5d" secondAttribute="top" id="Y6h-3u-Nda"/>
+                <constraint firstItem="9PN-0Y-LJe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="40" id="Ydx-mt-cyb"/>
+                <constraint firstItem="9jt-NT-qWq" firstAttribute="bottom" secondItem="aeY-PN-Y4M" secondAttribute="bottom" id="bfw-GO-uiw"/>
+                <constraint firstItem="aeY-PN-Y4M" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="dg0-yw-hHi"/>
+                <constraint firstAttribute="trailing" secondItem="4MS-s1-V5d" secondAttribute="trailing" id="kLc-IH-yZW"/>
+                <constraint firstItem="aeY-PN-Y4M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="l6m-Aw-DlR"/>
+                <constraint firstItem="4MS-s1-V5d" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mlJ-Jt-qjV"/>
+                <constraint firstItem="4MS-s1-V5d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="y3n-nn-DlW"/>
+                <constraint firstItem="9jt-NT-qWq" firstAttribute="leading" secondItem="aeY-PN-Y4M" secondAttribute="leading" id="ycn-t3-Ypc"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="111.83035714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_icon_24pt_pdf" width="24" height="24"/>
+        <image name="header_nav_bar_bkg_pdf" width="375" height="122"/>
+        <image name="yellow_smily_icon" width="340" height="341"/>
+        <namedColor name="AppLightGreen">
+            <color red="0.050999999046325684" green="0.69800001382827759" blue="0.69800001382827759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="DropShadowBlackColor">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

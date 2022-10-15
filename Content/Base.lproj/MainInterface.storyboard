@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d6d-9l-KMe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="LJg-21-pI1">
+            <objects>
+                <viewController id="d6d-9l-KMe" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="Content" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="qLA-Pc-pxk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="chC-aq-jlh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="UKl-sI-9gB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="chC-aq-jlh" firstAttribute="leading" secondItem="RtW-U3-FR2" secondAttribute="leading" id="XCV-qQ-PBm"/>
+                            <constraint firstItem="chC-aq-jlh" firstAttribute="top" secondItem="qLA-Pc-pxk" secondAttribute="top" id="kKE-mq-VvD"/>
+                            <constraint firstItem="chC-aq-jlh" firstAttribute="bottom" secondItem="RtW-U3-FR2" secondAttribute="bottom" id="xQA-Iw-iZo"/>
+                            <constraint firstItem="chC-aq-jlh" firstAttribute="trailing" secondItem="RtW-U3-FR2" secondAttribute="trailing" id="yba-MS-r64"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RtW-U3-FR2"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="200"/>
+                    <connections>
+                        <outlet property="imageView" destination="chC-aq-jlh" id="ABe-hJ-SFH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Os9-Ci-FOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208" y="133"/>
+        </scene>
+    </scenes>
+</document>

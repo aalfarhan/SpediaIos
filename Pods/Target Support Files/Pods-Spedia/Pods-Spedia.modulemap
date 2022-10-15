@@ -1,0 +1,6 @@
+framework module Pods_Spedia {
+  umbrella header "Pods-Spedia-umbrella.h"
+
+  export *
+  module * { export * }
+}

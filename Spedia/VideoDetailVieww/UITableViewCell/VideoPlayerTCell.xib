@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoPlayerTCell" rowHeight="280" id="KGk-i7-Jjw" customClass="VideoPlayerTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <webView clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAM-VX-sGx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="375" id="Ig0-Q0-D84"/>
+                            <constraint firstAttribute="height" constant="280" id="wq5-h4-v0B"/>
+                        </constraints>
+                    </webView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzO-sD-QT2" userLabel="BackButton">
+                        <rect key="frame" x="20" y="60" width="24" height="24"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="LV1-jv-Tik"/>
+                            <constraint firstAttribute="width" constant="24" id="M7S-0S-zMj"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="btn_back">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n4-yJ-b7p" userLabel="FullScreenButton">
+                        <rect key="frame" x="335" y="240" width="40" height="40"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="RXl-Ze-hFB"/>
+                            <constraint firstAttribute="width" constant="40" id="twT-6e-oLd"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="vAM-VX-sGx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Mye-Lx-tWr"/>
+                    <constraint firstItem="zzO-sD-QT2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Nmf-dM-38O"/>
+                    <constraint firstAttribute="bottom" secondItem="vAM-VX-sGx" secondAttribute="bottom" id="fWx-xG-X8K"/>
+                    <constraint firstItem="vAM-VX-sGx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gOD-RZ-orM"/>
+                    <constraint firstAttribute="trailing" secondItem="vAM-VX-sGx" secondAttribute="trailing" id="gyl-Zu-cB5"/>
+                    <constraint firstAttribute="trailing" secondItem="4n4-yJ-b7p" secondAttribute="trailing" id="hDb-BW-17x"/>
+                    <constraint firstItem="zzO-sD-QT2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="60" id="uno-ap-2Yx"/>
+                    <constraint firstAttribute="bottom" secondItem="4n4-yJ-b7p" secondAttribute="bottom" id="wX6-c2-hmQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backButton" destination="zzO-sD-QT2" id="jIb-3l-Ha6"/>
+                <outlet property="fullScreenButton" destination="4n4-yJ-b7p" id="DtG-Md-JZJ"/>
+                <outlet property="playerHeightConst" destination="wq5-h4-v0B" id="ejx-hM-3gn"/>
+                <outlet property="playerWitdhConst" destination="Ig0-Q0-D84" id="MIQ-C8-DOU"/>
+                <outlet property="wevViewOLD" destination="vAM-VX-sGx" id="8e2-lU-Exh"/>
+            </connections>
+            <point key="canvasLocation" x="139.85507246376812" y="72.991071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btn_back" width="72" height="72"/>
+    </resources>
+</document>

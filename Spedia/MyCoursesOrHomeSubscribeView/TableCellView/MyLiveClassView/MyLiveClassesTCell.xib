@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myLiveClassesTCell" rowHeight="210" id="KGk-i7-Jjw" customClass="MyLiveClassesTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="210"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="210"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQO-xi-HT2" userLabel="ContainerVieww">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="210"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QhQ-Dk-nWD" userLabel="TitleView">
+                                <rect key="frame" x="0.0" y="0.0" width="343" height="42"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tower_signals_pdf_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-iH-VBc">
+                                        <rect key="frame" x="16" y="9" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="0vj-uW-KVI"/>
+                                            <constraint firstAttribute="width" constant="24" id="YIQ-Oc-i1w"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pre Recorded" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfo-0T-TOv" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="5" width="109" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" name="AppTextBlack"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6j-y3-S44" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                        <rect key="frame" x="271" y="1" width="56" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Pn9-Ur-OiV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Show All">
+                                            <color key="titleColor" name="AppLightGreen"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Wfo-0T-TOv" secondAttribute="bottom" constant="5" id="4A2-cx-odH"/>
+                                    <constraint firstItem="D6j-y3-S44" firstAttribute="centerY" secondItem="Wfo-0T-TOv" secondAttribute="centerY" id="Xqt-Zf-GK7"/>
+                                    <constraint firstAttribute="trailing" secondItem="D6j-y3-S44" secondAttribute="trailing" constant="16" id="dN4-Gq-2aw"/>
+                                    <constraint firstItem="eIf-iH-VBc" firstAttribute="centerY" secondItem="Wfo-0T-TOv" secondAttribute="centerY" id="lxF-WG-9Wm"/>
+                                    <constraint firstItem="D6j-y3-S44" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Wfo-0T-TOv" secondAttribute="trailing" constant="8" id="tlz-Ts-V29"/>
+                                    <constraint firstItem="Wfo-0T-TOv" firstAttribute="top" secondItem="QhQ-Dk-nWD" secondAttribute="top" constant="5" id="wLY-aO-jqj"/>
+                                    <constraint firstItem="eIf-iH-VBc" firstAttribute="leading" secondItem="QhQ-Dk-nWD" secondAttribute="leading" constant="16" id="yc2-qs-1cQ"/>
+                                    <constraint firstItem="Wfo-0T-TOv" firstAttribute="leading" secondItem="eIf-iH-VBc" secondAttribute="trailing" constant="10" id="yt9-vq-pC4"/>
+                                </constraints>
+                            </view>
+                            <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ACq-5P-1uI">
+                                <rect key="frame" x="0.0" y="57" width="343" height="123"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="AQ3-vj-vPw"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dWh-Rk-Jz9">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ACq-5P-1uI" firstAttribute="leading" secondItem="YQO-xi-HT2" secondAttribute="leading" id="AYu-R1-JQV"/>
+                            <constraint firstAttribute="trailing" secondItem="ACq-5P-1uI" secondAttribute="trailing" id="VsH-ni-N38"/>
+                            <constraint firstItem="ACq-5P-1uI" firstAttribute="top" secondItem="QhQ-Dk-nWD" secondAttribute="bottom" constant="15" id="Xas-c6-LZg"/>
+                            <constraint firstAttribute="bottom" secondItem="ACq-5P-1uI" secondAttribute="bottom" constant="30" id="YAJ-bz-Ymr"/>
+                            <constraint firstItem="QhQ-Dk-nWD" firstAttribute="top" secondItem="YQO-xi-HT2" secondAttribute="top" id="fuA-jz-4UU"/>
+                            <constraint firstAttribute="trailing" secondItem="QhQ-Dk-nWD" secondAttribute="trailing" id="l5a-Jz-TxH"/>
+                            <constraint firstItem="QhQ-Dk-nWD" firstAttribute="leading" secondItem="YQO-xi-HT2" secondAttribute="leading" id="uzn-oo-wij"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="YQO-xi-HT2" secondAttribute="bottom" id="LBy-p3-fmx"/>
+                    <constraint firstItem="YQO-xi-HT2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ncx-bC-G44"/>
+                    <constraint firstItem="YQO-xi-HT2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ONq-oi-RmU"/>
+                    <constraint firstAttribute="trailing" secondItem="YQO-xi-HT2" secondAttribute="trailing" id="gqW-E4-hG4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collView" destination="ACq-5P-1uI" id="Ewl-zf-e2z"/>
+                <outlet property="collViewHeightConst" destination="AQ3-vj-vPw" id="Bb3-ci-C0n"/>
+                <outlet property="leftPeddingConst" destination="yc2-qs-1cQ" id="6aH-LE-Fs6"/>
+                <outlet property="rightPeddingConst" destination="dN4-Gq-2aw" id="5fH-Mn-fGW"/>
+                <outlet property="showAllButton" destination="D6j-y3-S44" id="8JJ-SR-ePm"/>
+                <outlet property="titleLabel" destination="Wfo-0T-TOv" id="ehB-hb-cGq"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="155.35714285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="tower_signals_pdf_icon" width="24" height="24"/>
+        <namedColor name="AppLightGreen">
+            <color red="0.050999999046325684" green="0.69800001382827759" blue="0.69800001382827759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

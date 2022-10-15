@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="subUnitSectionHCell" rowHeight="41" id="KGk-i7-Jjw" customClass="SubUnitSectionHCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcg-p7-w8K" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="5" width="286.5" height="34"/>
+                        <string key="text">Chapter One: The behavior of gases Chapter One: The behavior of gases Chapter One: The behavior of gases Chapter One: The behavior of gases</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" name="AppTextBlack"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="SemiBold"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock_gray_circle_pdf_icon" translatesAutoresizingMaskIntoConstraints="NO" id="7NL-Is-lOt">
+                        <rect key="frame" x="295" y="9.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="rJS-Qu-gC4"/>
+                            <constraint firstAttribute="width" constant="25" id="vja-pe-Ub5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LP-gQ-oOA" userLabel="LineLabel">
+                        <rect key="frame" x="0.0" y="44" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.88235294117647056" green="0.92156862745098034" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="B68-27-Gtc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="3LP-gQ-oOA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1Vn-ph-mYY"/>
+                    <constraint firstItem="qcg-p7-w8K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Ft7-KA-gk5"/>
+                    <constraint firstAttribute="trailing" secondItem="3LP-gQ-oOA" secondAttribute="trailing" id="ISo-fa-rYa"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qcg-p7-w8K" secondAttribute="trailing" constant="30" id="Irs-Ay-ryN"/>
+                    <constraint firstItem="3LP-gQ-oOA" firstAttribute="top" secondItem="qcg-p7-w8K" secondAttribute="bottom" constant="5" id="WgL-Ff-Gwe"/>
+                    <constraint firstAttribute="trailing" secondItem="7NL-Is-lOt" secondAttribute="trailing" id="cye-75-v9J"/>
+                    <constraint firstItem="7NL-Is-lOt" firstAttribute="centerY" secondItem="qcg-p7-w8K" secondAttribute="centerY" id="q7E-au-ik7"/>
+                    <constraint firstAttribute="bottom" secondItem="3LP-gQ-oOA" secondAttribute="bottom" constant="5" id="z0a-my-tGX"/>
+                    <constraint firstItem="qcg-p7-w8K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zpj-7P-vFP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lockIconImageView" destination="7NL-Is-lOt" id="WSg-kC-PK6"/>
+                <outlet property="sectionLbl" destination="qcg-p7-w8K" id="Zna-xu-WyQ"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="136.27232142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="lock_gray_circle_pdf_icon" width="20" height="20"/>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

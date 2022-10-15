@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="searchHistoryCollCell" id="gTV-IL-0wX" customClass="SearchHistoryCollCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6c-Mi-iz8">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Log Log Log Log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZc-vo-noQ" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="5" y="5" width="90" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8e-aA-R92">
+                                <rect key="frame" x="75" y="0.0" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="EKQ-pd-MHP"/>
+                                    <constraint firstAttribute="height" constant="25" id="Mig-fC-ZaB"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                                <state key="normal" image="cross_icon_30pt.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KZc-vo-noQ" firstAttribute="top" secondItem="C6c-Mi-iz8" secondAttribute="top" constant="5" id="HiG-Ol-qNE"/>
+                            <constraint firstAttribute="trailing" secondItem="S8e-aA-R92" secondAttribute="trailing" id="JI7-Xn-Zi9"/>
+                            <constraint firstAttribute="trailing" secondItem="KZc-vo-noQ" secondAttribute="trailing" constant="5" id="SHG-BQ-GFT"/>
+                            <constraint firstAttribute="bottom" secondItem="KZc-vo-noQ" secondAttribute="bottom" constant="5" id="WLG-F3-DX0"/>
+                            <constraint firstItem="S8e-aA-R92" firstAttribute="top" secondItem="C6c-Mi-iz8" secondAttribute="top" id="eaC-bT-oei"/>
+                            <constraint firstItem="KZc-vo-noQ" firstAttribute="leading" secondItem="C6c-Mi-iz8" secondAttribute="leading" constant="5" id="v1c-BV-hf3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="C6c-Mi-iz8" secondAttribute="trailing" id="BED-Om-b8s"/>
+                <constraint firstAttribute="bottom" secondItem="C6c-Mi-iz8" secondAttribute="bottom" id="ZbX-ah-kul"/>
+                <constraint firstItem="C6c-Mi-iz8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sFy-FJ-tqb"/>
+                <constraint firstItem="C6c-Mi-iz8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uVg-dv-d7o"/>
+            </constraints>
+            <size key="customSize" width="254" height="97"/>
+            <connections>
+                <outlet property="containerVieww" destination="C6c-Mi-iz8" id="rKa-kI-R2K"/>
+                <outlet property="crossButton" destination="S8e-aA-R92" id="jZK-aD-dH6"/>
+                <outlet property="historyLabel" destination="KZc-vo-noQ" id="Ihc-E3-wqr"/>
+            </connections>
+            <point key="canvasLocation" x="182.60869565217394" y="110.15625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cross_icon_30pt.png" width="10" height="10"/>
+    </resources>
+</document>

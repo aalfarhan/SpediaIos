@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.jw-text-live{ display: none !important;}
+
+.jwplayer.jw-skin-magellanskin .jw-controlbar .jw-background-color {
+background-color: transparent;
+    border-radius: 0px;
+    width: 95%;
+    right: 0;
+    margin: 0 auto;
+}
+.jwplayer.jw-skin-magellanskin .jw-rail {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+}
+.jw-buffer {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.jwplayer.jw-skin-magellanskin .jw-slider-horizontal .jw-buffer, .jwplayer.jw-skin-magellanskin .jw-slider-horizontal .jw-progress, .jwplayer.jw-skin-magellanskin .jw-slider-horizontal .jw-rail {
+    height: .4em;
+}
+.jwplayer.jw-skin-magellanskin .jw-progress {
+        background: linear-gradient(273deg, #34cdfe, #5ef5d5);     border-radius: 0px;
+}
+.jwplayer.jw-skin-magellanskin .jw-svg-icon.jw-svg-icon-rewind, .jwplayer.jw-skin-magellanskin .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind {
+    display: none;
+}
+.jwplayer.jw-skin-magellanskin .jw-display-icon-container.jw-background-color {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.58);
+}
+.jwplayer.jw-skin-magellanskin .jw-option.jw-active-option {
+    color: #fff;
+    background-color: #c2c2c4;
+    border-radius: 0px;
+}
+.jwplayer.jw-skin-magellanskin .jw-controlbar.jw-background-color {
+    background-color: inherit;
+}
+.jwplayer.jw-skin-magellanskin .jw-menu.jw-background-color {
+    background-color: #dfe2e9;
+    border-radius: 0px;
+}
+.jwplayer.jw-skin-magellanskin .jw-slider-volume.jw-volume-tip.jw-background-color {
+    background-color: #dfe2e9;
+    border-radius: 0px;
+}
+.jwplayer.jw-skin-magellanskin .jw-time-tip.jw-background-color {
+    background-color: #dfe2e9;
+    border-radius: 0px;
+}
+.jw-display-icon-container .jw-icon:before {
+    color: #fff;
+}
+.jw-controls .jw-controlbar-center-group {
+    padding: 0 .5em;
+    position: absolute;
+    width: 100%;
+    bottom: 2.5em;
+    right: 0;
+    left: 0;
+}
+.jw-controlbar-left-group {
+    width: 112px;
+}
+.jw-controlbar .jw-controlbar-right-group {
+    text-align: right;
+}
+.jw-controlbar .jw-controlbar-right-group .jw-text-duration {
+    float: left;
+    line-height: 40px;
+}
+.jwplayer.jw-state-complete .jw-display-icon-container.jw-background-color {
+    background: transparent;
+}
+.jwplayer.jw-skin-magellanskin .jw-settings-menu .jw-icon::after, .jwplayer.jw-skin-magellanskin .jw-icon-settings::after, .jwplayer.jw-skin-magellanskin .jw-icon-volume::after {
+    box-shadow: inherit;
+}
+.jwplayer .jw-rightclick.jw-reset{ display:none !important;}

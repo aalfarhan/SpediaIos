@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="contentDetailTCell" rowHeight="200" id="KGk-i7-Jjw" customClass="ContentDetailTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7CN-mU-PFq" userLabel="ContainerVieww">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleEnTitleEn TitleEn TitleEn TitleEn TitleEn TitleEn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3f-wm-wrd" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="PpG-oP-mXc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="AppTextBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock_gray_circle_pdf_icon" translatesAutoresizingMaskIntoConstraints="NO" id="HtP-4I-IVP">
+                                <rect key="frame" x="290" y="2.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="T1l-RN-nAZ"/>
+                                    <constraint firstAttribute="height" constant="20" id="ZTT-TW-Qvd"/>
+                                </constraints>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tc-ob-utV" userLabel="BorderView">
+                                <rect key="frame" x="0.0" y="35" width="320" height="155"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hnh-B0-QYa" userLabel="SubTitleView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleEnTitleEn TitleEn TitleEn TitleEn TitleEn TitleEn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjL-6m-jZW" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="13" width="266" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" name="AppTextBlack"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow_gray_pdf" translatesAutoresizingMaskIntoConstraints="NO" id="ftk-pC-s6F">
+                                                <rect key="frame" x="286" y="8" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="7Mp-1Y-q6H"/>
+                                                    <constraint firstAttribute="width" constant="24" id="eHe-5g-8zu"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2c0-Ef-XuR" userLabel="ExpandButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.050980392156862744" green="0.69803921568627447" blue="0.69803921568627447" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="ftk-pC-s6F" firstAttribute="centerY" secondItem="Hnh-B0-QYa" secondAttribute="centerY" id="0iy-qS-E0R"/>
+                                            <constraint firstItem="ftk-pC-s6F" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cjL-6m-jZW" secondAttribute="trailing" constant="10" id="BkG-ng-aEX"/>
+                                            <constraint firstItem="cjL-6m-jZW" firstAttribute="leading" secondItem="Hnh-B0-QYa" secondAttribute="leading" constant="10" id="NKL-JZ-wct"/>
+                                            <constraint firstAttribute="height" constant="40" id="cGr-1q-Tv2"/>
+                                            <constraint firstItem="cjL-6m-jZW" firstAttribute="centerY" secondItem="Hnh-B0-QYa" secondAttribute="centerY" id="mrQ-OQ-Vce"/>
+                                            <constraint firstAttribute="trailing" secondItem="ftk-pC-s6F" secondAttribute="trailing" constant="10" id="vON-OS-nvh"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3G-Wd-BEC" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="50" width="300" height="95"/>
+                                        <string key="text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="d3G-Wd-BEC" firstAttribute="top" secondItem="Hnh-B0-QYa" secondAttribute="bottom" constant="10" id="7lB-0Y-LGw"/>
+                                    <constraint firstItem="d3G-Wd-BEC" firstAttribute="leading" secondItem="1tc-ob-utV" secondAttribute="leading" constant="10" id="8sx-Vs-qc1"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hnh-B0-QYa" secondAttribute="trailing" id="E8F-Gf-M9b"/>
+                                    <constraint firstItem="Hnh-B0-QYa" firstAttribute="top" secondItem="1tc-ob-utV" secondAttribute="top" id="G8M-nk-2vd"/>
+                                    <constraint firstItem="Hnh-B0-QYa" firstAttribute="leading" secondItem="1tc-ob-utV" secondAttribute="leading" id="cM7-lI-PCt"/>
+                                    <constraint firstAttribute="trailing" secondItem="d3G-Wd-BEC" secondAttribute="trailing" constant="10" id="fTD-Rk-CIN"/>
+                                    <constraint firstAttribute="bottom" secondItem="d3G-Wd-BEC" secondAttribute="bottom" constant="10" id="nJb-ef-vFH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1tc-ob-utV" firstAttribute="leading" secondItem="7CN-mU-PFq" secondAttribute="leading" id="2Eu-RM-1YI"/>
+                            <constraint firstItem="m3f-wm-wrd" firstAttribute="top" secondItem="7CN-mU-PFq" secondAttribute="top" id="832-HM-YUZ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="m3f-wm-wrd" secondAttribute="trailing" constant="35" id="FXH-U1-t5v"/>
+                            <constraint firstAttribute="trailing" secondItem="HtP-4I-IVP" secondAttribute="trailing" constant="10" id="Lkh-si-tde"/>
+                            <constraint firstItem="HtP-4I-IVP" firstAttribute="centerY" secondItem="m3f-wm-wrd" secondAttribute="centerY" id="RAG-Jw-Co2"/>
+                            <constraint firstAttribute="bottom" secondItem="1tc-ob-utV" secondAttribute="bottom" id="d38-OP-3ft"/>
+                            <constraint firstItem="1tc-ob-utV" firstAttribute="top" secondItem="m3f-wm-wrd" secondAttribute="bottom" constant="10" id="gec-1l-bnE"/>
+                            <constraint firstItem="m3f-wm-wrd" firstAttribute="leading" secondItem="7CN-mU-PFq" secondAttribute="leading" id="lMn-W9-Y9b"/>
+                            <constraint firstAttribute="trailing" secondItem="1tc-ob-utV" secondAttribute="trailing" id="mGh-OQ-dHg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="7CN-mU-PFq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1WR-LI-XkJ"/>
+                    <constraint firstAttribute="trailing" secondItem="7CN-mU-PFq" secondAttribute="trailing" id="R01-8w-eTu"/>
+                    <constraint firstItem="7CN-mU-PFq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="U8R-9a-cVn"/>
+                    <constraint firstAttribute="bottom" secondItem="7CN-mU-PFq" secondAttribute="bottom" constant="10" id="p3e-fT-5lW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="borderContainerVieww" destination="1tc-ob-utV" id="eFl-R2-8De"/>
+                <outlet property="containerVieww" destination="7CN-mU-PFq" id="h9x-Nt-kZX"/>
+                <outlet property="descriptionBottomConst" destination="nJb-ef-vFH" id="Jil-95-Z2D"/>
+                <outlet property="descriptionHTMLLbl" destination="d3G-Wd-BEC" id="msj-IM-Htn"/>
+                <outlet property="descriptionTopConst" destination="7lB-0Y-LGw" id="XK2-Jv-DKG"/>
+                <outlet property="downArrowImage" destination="ftk-pC-s6F" id="1qL-qg-OGP"/>
+                <outlet property="expandTabButton" destination="2c0-Ef-XuR" id="3fs-cS-4IM"/>
+                <outlet property="subTitleLbl" destination="cjL-6m-jZW" id="Vyj-0X-Ajp"/>
+                <outlet property="titleLbl" destination="m3f-wm-wrd" id="gEI-7l-pCH"/>
+            </connections>
+            <point key="canvasLocation" x="147.82608695652175" y="177.45535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down_arrow_gray_pdf" width="24" height="24"/>
+        <image name="lock_gray_circle_pdf_icon" width="20" height="20"/>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

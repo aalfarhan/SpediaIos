@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataCustomerSupportView" customModule="Spedia" customModuleProvider="target">
+            <connections>
+                <outlet property="containerVieww" destination="iN0-l3-epB" id="Jnk-XJ-GWU"/>
+                <outlet property="grayColorView" destination="Y3B-WN-eeS" id="Enf-ng-30J"/>
+                <outlet property="middleSubTitleLbl" destination="Bzj-cs-a7d" id="Kps-qa-uuq"/>
+                <outlet property="orLbl" destination="enD-Vv-G47" id="iaF-XL-NJz"/>
+                <outlet property="supportFirstNumberButton" destination="NLc-Ic-mNs" id="Ayh-ER-1be"/>
+                <outlet property="supportSecondNumberButton" destination="rb7-FZ-qyb" id="hdV-jj-S73"/>
+                <outlet property="topTitleLbl" destination="G4i-j1-g3P" id="2Xb-gp-EXK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="ContainerView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="381"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnC-i8-aTK">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="381"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’re not subscribed this Facility" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4i-j1-g3P" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                            <rect key="frame" x="10" y="0.0" width="280" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="oHD-Gz-exp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" name="AppBlack"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3B-WN-eeS">
+                            <rect key="frame" x="0.0" y="60" width="300" height="321"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you want subscribe or ask for help, please call us our customer care excutive and he will reply soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzj-cs-a7d" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                    <rect key="frame" x="12" y="44" width="276" height="208.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" name="AppPlaceholderGray25"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLc-Ic-mNs" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                    <rect key="frame" x="114.5" y="257.5" width="71" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="E24-k6-x2H"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <state key="normal" title="1881880">
+                                        <color key="titleColor" name="AppBlack"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="firstNumberButtonAction:" destination="-1" eventType="touchUpInside" id="3Ki-FS-BW6"/>
+                                    </connections>
+                                </button>
+                                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enD-Vv-G47" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                    <rect key="frame" x="143" y="297.5" width="14.5" height="0.0"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" id="yBM-mp-rbx"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" name="AppPlaceholderGray25"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rb7-FZ-qyb" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                    <rect key="frame" x="76" y="297.5" width="148" height="0.0"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" id="SdA-Th-uqa"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <state key="normal" title="+965 55 00 55 00">
+                                        <color key="titleColor" name="AppBlack"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="secondNumberButtonAction:" destination="-1" eventType="touchUpInside" id="f28-nr-aq4"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="NLc-Ic-mNs" firstAttribute="top" secondItem="Bzj-cs-a7d" secondAttribute="bottom" constant="5" id="10g-Nj-qay"/>
+                                <constraint firstItem="enD-Vv-G47" firstAttribute="top" secondItem="NLc-Ic-mNs" secondAttribute="bottom" id="4uE-vO-fYZ"/>
+                                <constraint firstAttribute="bottom" secondItem="rb7-FZ-qyb" secondAttribute="bottom" constant="23.5" id="CPv-aC-Uav"/>
+                                <constraint firstItem="enD-Vv-G47" firstAttribute="centerX" secondItem="NLc-Ic-mNs" secondAttribute="centerX" id="Fpx-mx-nG4"/>
+                                <constraint firstItem="Bzj-cs-a7d" firstAttribute="top" secondItem="Y3B-WN-eeS" secondAttribute="top" constant="44" id="HcR-6g-JqH"/>
+                                <constraint firstItem="rb7-FZ-qyb" firstAttribute="top" secondItem="enD-Vv-G47" secondAttribute="bottom" id="Ke9-Se-mpM"/>
+                                <constraint firstItem="Bzj-cs-a7d" firstAttribute="leading" secondItem="Y3B-WN-eeS" secondAttribute="leading" constant="12" id="McU-mG-Oco"/>
+                                <constraint firstItem="rb7-FZ-qyb" firstAttribute="centerX" secondItem="NLc-Ic-mNs" secondAttribute="centerX" id="RU9-QN-krC"/>
+                                <constraint firstAttribute="trailing" secondItem="Bzj-cs-a7d" secondAttribute="trailing" constant="12" id="gBS-9S-V9E"/>
+                                <constraint firstItem="NLc-Ic-mNs" firstAttribute="centerX" secondItem="Y3B-WN-eeS" secondAttribute="centerX" id="pWD-St-9sz"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_call_round_button" translatesAutoresizingMaskIntoConstraints="NO" id="Zdd-qZ-Y2E">
+                            <rect key="frame" x="120" y="30" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="RbJ-fJ-YXP"/>
+                                <constraint firstAttribute="height" constant="60" id="fGN-i3-d5K"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Zdd-qZ-Y2E" firstAttribute="centerX" secondItem="Y3B-WN-eeS" secondAttribute="centerX" id="AJP-yj-EH2"/>
+                        <constraint firstItem="Y3B-WN-eeS" firstAttribute="leading" secondItem="qnC-i8-aTK" secondAttribute="leading" id="Olu-Ny-KLs"/>
+                        <constraint firstItem="Zdd-qZ-Y2E" firstAttribute="top" secondItem="Y3B-WN-eeS" secondAttribute="top" constant="-30" id="PNb-Fv-raK"/>
+                        <constraint firstAttribute="trailing" secondItem="G4i-j1-g3P" secondAttribute="trailing" constant="10" id="S3S-OQ-Zox"/>
+                        <constraint firstItem="G4i-j1-g3P" firstAttribute="leading" secondItem="qnC-i8-aTK" secondAttribute="leading" constant="10" id="StU-RF-Ybp"/>
+                        <constraint firstItem="Y3B-WN-eeS" firstAttribute="top" secondItem="G4i-j1-g3P" secondAttribute="bottom" constant="38" id="XnX-iK-rNG"/>
+                        <constraint firstAttribute="trailing" secondItem="Y3B-WN-eeS" secondAttribute="trailing" id="bW3-MQ-koV"/>
+                        <constraint firstItem="G4i-j1-g3P" firstAttribute="top" secondItem="qnC-i8-aTK" secondAttribute="top" id="cIf-ew-LOe"/>
+                        <constraint firstAttribute="bottom" secondItem="Y3B-WN-eeS" secondAttribute="bottom" id="za9-kK-LB0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="qnC-i8-aTK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ACv-xW-ogO"/>
+                <constraint firstItem="qnC-i8-aTK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cbt-iN-yky"/>
+                <constraint firstItem="qnC-i8-aTK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="gk1-za-Kp8"/>
+                <constraint firstItem="qnC-i8-aTK" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="i9h-Rd-tJS"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="46.376811594202906" y="-78.683035714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="green_call_round_button" width="180" height="180"/>
+        <namedColor name="AppBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppPlaceholderGray25">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

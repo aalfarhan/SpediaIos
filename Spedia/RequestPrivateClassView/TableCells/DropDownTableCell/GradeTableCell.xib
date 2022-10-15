@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="62" id="KGk-i7-Jjw" customClass="GradeTableCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILg-tO-05u" userLabel="ContainerVieww">
+                        <rect key="frame" x="16" y="0.0" width="343" height="65"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_checked_grayGreen" translatesAutoresizingMaskIntoConstraints="NO" id="LVg-Ca-53a">
+                                <rect key="frame" x="20" y="20.5" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="83w-7X-Swy"/>
+                                    <constraint firstAttribute="width" constant="24" id="H1H-rJ-Hxi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_roundGray" translatesAutoresizingMaskIntoConstraints="NO" id="3so-Jx-k8E">
+                                <rect key="frame" x="20" y="20.5" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="6e1-DW-q3r"/>
+                                    <constraint firstAttribute="width" constant="24" id="Ax6-Sy-cQ8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ski-vD-EN9" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="58" y="20.5" width="54" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" name="AppTextBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.10199999809265137" blue="0.10199999809265137" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ski-vD-EN9" firstAttribute="leading" secondItem="LVg-Ca-53a" secondAttribute="trailing" constant="14" id="3KG-kC-FBO"/>
+                            <constraint firstItem="LVg-Ca-53a" firstAttribute="leading" secondItem="ILg-tO-05u" secondAttribute="leading" constant="20" id="59C-ow-FZV"/>
+                            <constraint firstAttribute="height" constant="65" id="A9t-lj-Mi7"/>
+                            <constraint firstItem="3so-Jx-k8E" firstAttribute="leading" secondItem="ILg-tO-05u" secondAttribute="leading" constant="20" id="TfQ-Am-Zwn"/>
+                            <constraint firstItem="3so-Jx-k8E" firstAttribute="centerY" secondItem="ILg-tO-05u" secondAttribute="centerY" id="bMq-pM-4No"/>
+                            <constraint firstItem="ski-vD-EN9" firstAttribute="centerY" secondItem="ILg-tO-05u" secondAttribute="centerY" id="c8B-qY-w3K"/>
+                            <constraint firstItem="LVg-Ca-53a" firstAttribute="centerY" secondItem="ILg-tO-05u" secondAttribute="centerY" id="tRz-HZ-x15"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ILg-tO-05u" secondAttribute="bottom" constant="15" id="5AT-1o-1eB"/>
+                    <constraint firstAttribute="trailing" secondItem="ILg-tO-05u" secondAttribute="trailing" constant="16" id="J1o-Gz-0Kb"/>
+                    <constraint firstItem="ILg-tO-05u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="MZ8-GK-7Fg"/>
+                    <constraint firstItem="ILg-tO-05u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ff7-c2-hkg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkImageView" destination="LVg-Ca-53a" id="rhA-6c-tRf"/>
+                <outlet property="containerVieww" destination="ILg-tO-05u" id="GnR-dg-IoE"/>
+                <outlet property="nameLbl" destination="ski-vD-EN9" id="ij4-gj-m32"/>
+                <outlet property="roundImageView" destination="3so-Jx-k8E" id="y4b-Qs-rex"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="132.25446428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_checked_grayGreen" width="66" height="66"/>
+        <image name="icon_roundGray" width="66" height="66"/>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

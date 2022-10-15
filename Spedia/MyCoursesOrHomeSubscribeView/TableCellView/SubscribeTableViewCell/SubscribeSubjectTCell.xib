@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="subscribeSubjectTCell" id="5A1-7u-Spi" customClass="SubscribeSubjectTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="210"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5A1-7u-Spi" id="7n9-41-57F">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="210"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZRD-dA-XyJ" userLabel="ContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="210"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Subscribed Courses My Subscribed Courses My Subscribed Courses" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYn-cd-Cn4" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="16" y="0.0" width="317" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="AppTextBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="8U9-5p-00d">
+                                <rect key="frame" x="3" y="26" width="343" height="158"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="nW7-U2-Cn2"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nYU-1E-LRF">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="8U9-5p-00d" secondAttribute="bottom" constant="25" id="2Fa-hh-fLf"/>
+                            <constraint firstItem="OYn-cd-Cn4" firstAttribute="top" secondItem="ZRD-dA-XyJ" secondAttribute="top" id="GH1-6N-cGM"/>
+                            <constraint firstItem="8U9-5p-00d" firstAttribute="top" secondItem="OYn-cd-Cn4" secondAttribute="bottom" constant="15" id="V48-8U-dmr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OYn-cd-Cn4" secondAttribute="trailing" constant="10" id="g0Q-Wt-sOE"/>
+                            <constraint firstItem="OYn-cd-Cn4" firstAttribute="leading" secondItem="ZRD-dA-XyJ" secondAttribute="leading" constant="16" id="lp6-gx-Nds"/>
+                            <constraint firstAttribute="trailing" secondItem="8U9-5p-00d" secondAttribute="trailing" id="npt-4C-Qph"/>
+                            <constraint firstItem="8U9-5p-00d" firstAttribute="leading" secondItem="ZRD-dA-XyJ" secondAttribute="leading" id="yRF-gJ-rfZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ZRD-dA-XyJ" secondAttribute="trailing" id="AWv-hQ-pUM"/>
+                    <constraint firstAttribute="bottom" secondItem="ZRD-dA-XyJ" secondAttribute="bottom" id="Ah5-lE-CgG"/>
+                    <constraint firstItem="ZRD-dA-XyJ" firstAttribute="top" secondItem="7n9-41-57F" secondAttribute="top" id="SDM-VQ-FEt"/>
+                    <constraint firstItem="ZRD-dA-XyJ" firstAttribute="leading" secondItem="7n9-41-57F" secondAttribute="leading" id="wqc-uo-EFK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="XiZ-4S-TJT"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="collView" destination="8U9-5p-00d" id="d5m-pk-WxP"/>
+                <outlet property="collViewHeightConst" destination="nW7-U2-Cn2" id="bhu-v4-RU4"/>
+                <outlet property="leftPeddingConst" destination="lp6-gx-Nds" id="ATx-OU-iwt"/>
+                <outlet property="titleLabel" destination="OYn-cd-Cn4" id="Pog-iQ-SzM"/>
+            </connections>
+            <point key="canvasLocation" x="155.79710144927537" y="105.46875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

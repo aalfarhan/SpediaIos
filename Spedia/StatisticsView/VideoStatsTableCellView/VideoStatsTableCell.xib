@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoStatsTableCell" rowHeight="80" id="KGk-i7-Jjw" customClass="VideoStatsTableCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Jv-Fq-J0r" userLabel="ContainerVieww">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2v-bQ-TOc" userLabel="ColorView">
+                                <rect key="frame" x="15" y="11.5" width="57" height="57"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-0c-vsA">
+                                        <rect key="frame" x="13.5" y="13.5" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="ce6-b5-sg7"/>
+                                            <constraint firstAttribute="height" constant="30" id="y7V-cs-e8I"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="CellBkgTest"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="Fgb-34-XZo"/>
+                                    <constraint firstItem="fAN-0c-vsA" firstAttribute="centerY" secondItem="E2v-bQ-TOc" secondAttribute="centerY" id="eEw-z4-5fn"/>
+                                    <constraint firstAttribute="height" constant="57" id="hcm-4d-LeQ"/>
+                                    <constraint firstItem="fAN-0c-vsA" firstAttribute="centerX" secondItem="E2v-bQ-TOc" secondAttribute="centerX" id="mKD-OY-40z"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject Name Subject" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLE-U0-qHw" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="92" y="19.5" width="161.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" name="AppTextBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100.00%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwT-uA-DNc" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="295" y="21" width="60" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="j0H-4V-tsb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="AppPlaceholderGray25"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="z7A-Kn-qMw">
+                                <rect key="frame" x="92" y="48" width="263" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="iK9-kF-Sud"/>
+                                </constraints>
+                                <color key="progressTintColor" name="AppLimeGreen"/>
+                                <color key="trackTintColor" name="AppBorderGray"/>
+                            </progressView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYH-LY-yuN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z7A-Kn-qMw" secondAttribute="trailing" constant="20" id="0bd-uh-Im9"/>
+                            <constraint firstItem="z7A-Kn-qMw" firstAttribute="leading" secondItem="YLE-U0-qHw" secondAttribute="leading" id="B7a-m7-rgs"/>
+                            <constraint firstItem="E2v-bQ-TOc" firstAttribute="centerY" secondItem="7Jv-Fq-J0r" secondAttribute="centerY" id="KqP-A6-j84"/>
+                            <constraint firstItem="YLE-U0-qHw" firstAttribute="leading" secondItem="E2v-bQ-TOc" secondAttribute="trailing" constant="20" id="U7t-KK-iOO"/>
+                            <constraint firstItem="VwT-uA-DNc" firstAttribute="centerY" secondItem="YLE-U0-qHw" secondAttribute="centerY" id="WmP-mR-yae"/>
+                            <constraint firstAttribute="height" constant="80" id="XE8-4Q-xS4"/>
+                            <constraint firstAttribute="trailing" secondItem="VwT-uA-DNc" secondAttribute="trailing" constant="20" id="oJB-EX-CbN"/>
+                            <constraint firstItem="VwT-uA-DNc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YLE-U0-qHw" secondAttribute="trailing" constant="5" id="r6z-tR-GLu"/>
+                            <constraint firstItem="YLE-U0-qHw" firstAttribute="top" secondItem="E2v-bQ-TOc" secondAttribute="top" constant="8" id="rBJ-C7-avL"/>
+                            <constraint firstItem="z7A-Kn-qMw" firstAttribute="top" secondItem="YLE-U0-qHw" secondAttribute="bottom" constant="9" id="xY3-4r-9Ni"/>
+                            <constraint firstItem="E2v-bQ-TOc" firstAttribute="leading" secondItem="7Jv-Fq-J0r" secondAttribute="leading" constant="15" id="yVK-Vj-aEQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7Jv-Fq-J0r" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="25b-QT-5iL"/>
+                    <constraint firstAttribute="trailing" secondItem="7Jv-Fq-J0r" secondAttribute="trailing" id="4nV-6V-Eit"/>
+                    <constraint firstItem="7Jv-Fq-J0r" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9Ar-Rr-6GH"/>
+                    <constraint firstAttribute="bottom" secondItem="7Jv-Fq-J0r" secondAttribute="bottom" constant="20" id="ZKC-4f-tYB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="colorView" destination="E2v-bQ-TOc" id="vxs-pd-De1"/>
+                <outlet property="containerVieww" destination="7Jv-Fq-J0r" id="Wf7-34-Efo"/>
+                <outlet property="iconImageView" destination="fAN-0c-vsA" id="Zcu-Tq-V5Z"/>
+                <outlet property="percentLabel" destination="VwT-uA-DNc" id="nV6-E2-exm"/>
+                <outlet property="progressBar" destination="z7A-Kn-qMw" id="7X5-TJ-kA3"/>
+                <outlet property="subjectNameLabel" destination="YLE-U0-qHw" id="qLQ-C6-Veb"/>
+                <outlet property="tabCellButton" destination="XYH-LY-yuN" id="00M-aR-k5T"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="101.45089285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppBorderGray">
+            <color red="0.9570000171661377" green="0.9570000171661377" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppLimeGreen">
+            <color red="0.45899999141693115" green="0.75300002098083496" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppPlaceholderGray25">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CellBkgTest">
+            <color red="0.3529999852180481" green="0.49000000953674316" blue="0.98000001907348633" alpha="0.10000000149011612" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="featuresInnerTCell" id="KGk-i7-Jjw" customClass="FeaturesInnerTCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C86-7n-lkF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JE-Ek-WZ4" userLabel="IconView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ik0-pZ-CHP">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="RQM-P8-VFu"/>
+                                            <constraint firstAttribute="width" constant="20" id="Rab-a5-rd7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0BW-eY-GO4" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="0.0" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" name="AppBlack"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Ik0-pZ-CHP" firstAttribute="leading" secondItem="1JE-Ek-WZ4" secondAttribute="leading" id="0je-5T-g1e"/>
+                                    <constraint firstItem="0BW-eY-GO4" firstAttribute="top" secondItem="1JE-Ek-WZ4" secondAttribute="top" id="OBr-I5-5Gx"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0BW-eY-GO4" secondAttribute="trailing" id="afo-sP-QLe"/>
+                                    <constraint firstItem="Ik0-pZ-CHP" firstAttribute="top" secondItem="0BW-eY-GO4" secondAttribute="top" id="bZk-Ew-yVK"/>
+                                    <constraint firstItem="0BW-eY-GO4" firstAttribute="leading" secondItem="Ik0-pZ-CHP" secondAttribute="trailing" constant="10" id="oFm-3D-HBO"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0BW-eY-GO4" secondAttribute="bottom" constant="15" id="qa6-lp-94E"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1JE-Ek-WZ4" firstAttribute="leading" secondItem="C86-7n-lkF" secondAttribute="leading" id="0dt-Ms-Jzu"/>
+                            <constraint firstAttribute="bottom" secondItem="1JE-Ek-WZ4" secondAttribute="bottom" id="TrZ-0u-Z4Q"/>
+                            <constraint firstItem="1JE-Ek-WZ4" firstAttribute="top" secondItem="C86-7n-lkF" secondAttribute="top" id="Ysp-ee-7HH"/>
+                            <constraint firstAttribute="trailing" secondItem="1JE-Ek-WZ4" secondAttribute="trailing" id="enU-yX-The"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="C86-7n-lkF" secondAttribute="bottom" id="33t-uO-PXu"/>
+                    <constraint firstItem="C86-7n-lkF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e8X-kM-lNZ"/>
+                    <constraint firstAttribute="trailing" secondItem="C86-7n-lkF" secondAttribute="trailing" id="nqL-ZR-LYQ"/>
+                    <constraint firstItem="C86-7n-lkF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zsA-8k-bUd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="containerView" destination="C86-7n-lkF" id="Vmi-X2-91l"/>
+                <outlet property="iconImageView" destination="Ik0-pZ-CHP" id="Jdz-gg-mvp"/>
+                <outlet property="iconTitleLbl" destination="0BW-eY-GO4" id="RAr-C9-Mi9"/>
+                <outlet property="iconView" destination="1JE-Ek-WZ4" id="CQu-Ou-wuj"/>
+            </connections>
+            <point key="canvasLocation" x="184" y="110"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

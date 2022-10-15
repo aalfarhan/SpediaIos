@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "attach_gray_pdf_icon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

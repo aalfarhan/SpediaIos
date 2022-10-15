@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="askListTableCell" id="KGk-i7-Jjw" customClass="AskListTableCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeW-Po-Rjt" userLabel="ContainerVieww">
+                        <rect key="frame" x="16" y="10" width="288" height="160"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwZ-Uf-GNK" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="15" y="10" width="37.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="YrL-n4-DHH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="AppPlaceholderGray25"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1av-6e-aRc" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="15" y="30" width="37.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="22j-SK-54i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="AppTextBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2C-LP-DiH" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="15" y="50" width="37.5" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="AppTextBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rz8-CD-mqv" customClass="CustomButton" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="15" y="130" width="37" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="MuN-B1-8pw"/>
+                                </constraints>
+                                <state key="normal" title="المزيد">
+                                    <color key="titleColor" name="TabBarTintOrange"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="btnBorderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isNotRounded" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="ContainerView"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1av-6e-aRc" secondAttribute="trailing" constant="15" id="7Kc-jI-TYZ"/>
+                            <constraint firstItem="rz8-CD-mqv" firstAttribute="leading" secondItem="W2C-LP-DiH" secondAttribute="leading" id="KVD-sO-m3y"/>
+                            <constraint firstItem="rz8-CD-mqv" firstAttribute="top" secondItem="W2C-LP-DiH" secondAttribute="bottom" id="OcI-6b-1C3"/>
+                            <constraint firstItem="W2C-LP-DiH" firstAttribute="top" secondItem="1av-6e-aRc" secondAttribute="bottom" id="Qds-MG-Pus"/>
+                            <constraint firstItem="bwZ-Uf-GNK" firstAttribute="leading" secondItem="PeW-Po-Rjt" secondAttribute="leading" constant="15" id="SO1-jT-LS1"/>
+                            <constraint firstItem="W2C-LP-DiH" firstAttribute="leading" secondItem="1av-6e-aRc" secondAttribute="leading" id="UH4-bX-ygD"/>
+                            <constraint firstAttribute="bottom" secondItem="rz8-CD-mqv" secondAttribute="bottom" constant="10" id="UdR-AR-AmO"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bwZ-Uf-GNK" secondAttribute="trailing" constant="15" id="c6p-dL-0tI"/>
+                            <constraint firstItem="bwZ-Uf-GNK" firstAttribute="top" secondItem="PeW-Po-Rjt" secondAttribute="top" constant="10" id="mf5-8Y-B5d"/>
+                            <constraint firstItem="1av-6e-aRc" firstAttribute="leading" secondItem="bwZ-Uf-GNK" secondAttribute="leading" id="nd3-DM-7IV"/>
+                            <constraint firstItem="1av-6e-aRc" firstAttribute="top" secondItem="bwZ-Uf-GNK" secondAttribute="bottom" id="tfM-MU-8pw"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="W2C-LP-DiH" secondAttribute="trailing" constant="15" id="vpQ-Fl-W1j"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PeW-Po-Rjt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="JWL-H7-5bG"/>
+                    <constraint firstItem="PeW-Po-Rjt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="TFV-mb-BGI"/>
+                    <constraint firstAttribute="trailing" secondItem="PeW-Po-Rjt" secondAttribute="trailing" constant="16" id="hQ6-1x-Bgz"/>
+                    <constraint firstAttribute="bottom" secondItem="PeW-Po-Rjt" secondAttribute="bottom" constant="10" id="iLh-0i-iw4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="adminOrUserLbl" destination="1av-6e-aRc" id="sQJ-uI-Z5q"/>
+                <outlet property="constForMoreButtonHieght" destination="MuN-B1-8pw" id="YgV-Qd-rkk"/>
+                <outlet property="containerVieww" destination="PeW-Po-Rjt" id="IWy-26-GDu"/>
+                <outlet property="dateAndTimeLbl" destination="bwZ-Uf-GNK" id="0Cp-Hm-NeO"/>
+                <outlet property="moreButton" destination="rz8-CD-mqv" id="fhe-z0-h9V"/>
+                <outlet property="msgLbl" destination="W2C-LP-DiH" id="abZ-gC-prJ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AppPlaceholderGray25">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppTextBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ContainerView">
+            <color red="0.45899999141693115" green="0.75300002098083496" blue="0.5690000057220459" alpha="0.10000000149011612" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TabBarTintOrange">
+            <color red="0.98799997568130493" green="0.39599999785423279" blue="0.17299999296665192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

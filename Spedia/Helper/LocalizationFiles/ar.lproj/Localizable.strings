@@ -1,0 +1,641 @@
+/*
+  Localizable.strings
+  My Motor
+
+  Created by Xpercube on 07/05/19.
+  Copyright © 2019 Xpercube. All rights reserved.
+*/
+
+
+
+
+"SOME_ERR" = "Something went wrong. please try again later - ar";
+"NETWORK_ERROR" = "لا يوجد شبكة";
+"USERNAME_IS_REQUIRED" = "اسم المستخدم مطلوب";
+"INVALID_DATE_OF_BIRTH" = "من فضلك ادخل تاريخ ميلاد صحيح";
+"NO_WHATSAPP" = "رقم Watsapp غير متاح لهذا العنصر";
+"NO_SMS" = "رقم الجوال غير متاح لهذا العنصر";
+"NO_CALL" = "رقم الجوال غير متاح لهذا العنصر";
+"MANDATORY_FIELDS" = "All fields are mandatory";
+"ADD_IMAGE" = "يرجى إختيار الصور";
+"ANSWER_ALL_QUESTIONS" = "يرجى إختيار الأسئلة";
+
+
+"NO_FAV_BRANDS" = "الرجاء اختيار ماركة واحدة على الأقل";
+
+"INAVALID_YEAR" = "يرجى إختيار سنة صحيحة";
+"MAX_100_WORDS" = "الوصف لا يمكن أن يتخطى ال 100 كلمة";
+"MAX_500_LETTERS" = "الوصف لا يمكن أن يتخطى ال 500 حرف";
+
+"SURE_TO_UPDATE" = "هل أنت متأكد من تحديث البيانات كوكيل‎";
+
+"BUY_CREDIT" = "شراء رصيد";
+"PUBLISH_YOUR_POST" = "نشر الإعلان";
+"NO_ENOUGH_CREDIT" = "ليس لديك رصيد كافي";
+"Credit" = "رصيد";
+
+// Localized text
+"MY_PROFILE" = "  الملف الشخصي";
+"DEALER_ACCOUNT" = " حساب تاجر" ;
+"GO" = "انطلق";
+"CUSTOMIZE" = "تعديل";
+
+"ACTIVE" = "تفعيل";
+"DEACTIVE" = "ملغي";
+
+//"Recents" = "ملغي";
+
+
+
+
+
+// Font names
+"BOLD" = "Cairo-Bold";
+"XTRABOLD" = "Cairo-Black";
+
+"LIGHT" = "Cairo-Light";
+"XTRALIGHT" = "Cairo-ExtraLight";
+
+"REGULAR" = "Cairo-Regular";
+"SEMIBOLD" = "Cairo-SemiBold";
+
+
+
+//MARK: Sepdia App Localization
+//Spedia
+
+//MARK: Tab bar Titles
+"My Cart" = "السلة";
+"home_ph" = "الرئيسية";
+"Training Course" = "فصل مباشر";
+"More" = "المزيد";
+"Live Class Tab" = "فصل مباشر";
+"Profile" = "حسابي";
+"rp_ph" = "حصص خاصة";
+"Chat" = "مساعدة";
+"my_course_ph_tab" = "اشتراكاتي";
+ 
+//Validation..
+"valid_email" = "خطأ بالبريد الإلكتروني";
+
+
+"valid_username" = "برجاء إدخال اسم المستخدم";
+//"enter_username" = "برجاء اضافة اسم المستخدم";
+"username" = "اسم المستخدم";
+
+
+"valid_phone" = "برجاء كتابة رقم هاتف صحيح";
+"valid_fullname" = "برجاء كتابة الإسم كاملاً";
+
+"valid_password" = "برجاء كتابة كلمة السر";
+
+"valid_confirm_password" = "برجاء تأكيد كلمة السر";
+
+"password_mismatch" = "كلمة السر غير متطابقة";
+"iagreedTC" = "  برجاء الموافقة على الشروط والاحكام   ";
+
+
+//Pop up's...
+"coming_soon" = "    قريبا !    ";
+
+
+//Logout..
+"YES" = "نعم";
+"NO" = "لا";
+"ARE_YOU_SURE" = "هل ترغب بتسجيل الخروج";
+
+
+//  Alert or toast
+"ALERT"="رسالة";
+"OK"="حسنا";
+"CANCEL"="إلغاء";
+
+
+
+//ASK Spedia :
+
+"if_question" = "إذا كان لديك أي سؤال أو ترغب بالمساعدة، فتفضل بالاتصال بنا وسنقوم بالرد قريبًا";
+
+"subject" = "المادة";
+
+"type_your_question" = "أكتب سؤالك / إستفسارك";
+
+"your_question" = "السؤال / الإستفسار";
+
+"attach_file" = "الملف المرفق";
+
+"ask_now" = "إرسال";
+
+"new_message" = "إرسال";
+
+"reply" = "جديد";
+
+"ask_spedia" = "اسأل معلم";
+
+"please_type_your_question" = "برجاء كتابة سؤالك / إستفسارك";
+
+"please_select_your_subject" = "اختيار المادة";
+
+
+//Side Menu :
+
+"notification_ph" = "الإشعارات";
+
+
+//Mark: Forgot Password:
+"forgot_password" = "هل نسيت كلمة السر ؟";
+
+"if_dont_rember_contact" = "يمكنك التواصل مع مركز خدمة العملاء";
+
+"forgot_password_reset_sent" = "تم ارسال كلمة السر الجديدة على رقم الهاتف المسجل لدينا";
+
+"login_now" = "تسجيل الدخول";
+
+"submitForgot" = "طلب كلمة سر جديدة";
+
+"contact_us" = "اتصل بنا";
+
+"guest_login_ph" = "الدخول كزائر";
+
+"ARE_YOU_SURE_GUEST" = "الرجاء التسجيل لاتمام عملية الشراء";
+
+
+//MARK: Edit Profile:-
+"delete_ph" = " حذف ";
+"edit_profile" = "تعديل البيانات الشخصية";
+
+"delete_title_ph" = "Are you sure you want to delete your account?";
+"delete_msg_ph" = "Around the end of the traditional winter did not, but ships and Holland, the American, was the third rogue two weeks to take place. Around the end of the traditional winter did not, but ships and Holland, the American, was the third rogue two weeks to take place";
+
+
+//"confirm_password" = "تأكيد كلمة السر";
+//"create_password" = "أدخل كلمة السر";
+
+"new_password" = "أدخل كلمة السر الجديدة";
+"confirm_new_password" = "تأكيد كلمة السر الجديدة";
+
+
+"phone_number" = "رقم الموبايل";
+
+
+"verify" = "تاكيد";
+"submitEditProfile" = "حفظ";
+"uploading" = "جاري التحميل";
+"sent_successfully" = "تم الارسال";
+
+
+//Image Library:-
+
+"choose_photo" = "اختيار صورة";
+"gallery" = "ألبوم الصور";
+"camera" = "الكاميرا";
+
+
+//Networkd Erorr:-
+"no_network" = "مشكلة بالاتصال بالإنترنت";
+
+
+//No Recoding Allow:-
+"no_recoding_text" = "عفوا! لا يمكن تسجيل الشاشة";
+
+
+//"poor_connetction" = "Poor network connection detected. Please check your internet connetction. AR";
+
+"retry" = "إعادة المحاولة";
+
+
+//Custom Alert Box:-
+
+"congo" = "تم قبول عملية الدفع بنجاح";
+//"payment_successful" = "Your payment successful. Now enjoy uniterrepted learning. AR";
+
+"oh_no" = "حدث خطأ ما";
+"payment_unsuccessful" = "فشلت عملية الدفع";
+
+
+
+//MARK: Live Class and Request Private Class:-
+
+"active_course_count" = " فصل متاح ";
+
+"view_all" = "عرض الكل";
+
+"active_classes" = "المتاح";
+
+"reserved_classes" = "المحجوز";
+
+"open" = "عرض";
+
+"close" = "إغلاق";
+
+"reserve_now" = "احجز الآن";
+
+"no_reserved_data" = "لم يتم حجز أي فصل مباشر حتى الآن";
+
+"no_active_data" = "لا توجد فصول مباشرة متاحة";
+
+"available" = "متاح :";
+
+"reserved" = "محجوز :";
+
+"sold_out" = "كامل العدد";
+
+"download" = "تم التحميل";
+
+"join" = "انضم";
+
+"read_more" = "المزيد";
+
+"read_less" = "تصغير";
+
+"read_more_and_less" = "More/Less AR";
+
+//For RP FOAM PAGE
+"rp_active_class_button_text" = "المحجوز";
+"rp_request_private_button_text" = "حجز حصة";
+
+
+//MARK: Request Private Class :-
+
+"subject_tft_ph" = "اختيار المادة";
+
+"subject_added_to_cart" = "‎تم إضافة الحصة لسلة الشراء";
+"request_other_subject" = "‎طلب حصة أخرى";
+"goto_cart" = "‎الدفع";
+
+"private_request" = "حصة خاصة";
+
+"request_private" = "طلب حصة خاصة";
+
+"start" = "طلب";
+
+"prefered_date" = "اليوم / التاريخ";
+
+"prefered_time" = "الفترة المفضلة";
+
+"no_of_hours" = "عدد الساعات";
+
+"no_of_hours_tft_ph" = "اختيار عدد الساعات";
+
+"type" = "نوع الحصة";
+
+"desc_your_need" = "ملاحظات";
+
+"by_clicking" = "أوافق على";
+
+"terms_and_condition" = "الشروط والأحكام";
+
+"next" = "التالي";
+
+"finish" = "إنهاء";
+
+"please_wait_loading" = "جاري التحميل";
+
+"my_qr_code" = "My QR Code";
+
+"note_description" = "نرجو منكم توضيح تفاصيل الحصة من كمية منهج بشكل دقيق أو التنبيه لاختبار قادم للطالب أو اختيار معلم معين أو غيرها";
+
+"invalid_qr_code" = "عفوا ! خطأ في رمز QR";
+
+"qr_code_error" = " الرجاء التحقق من الكود ثم إعادة المحاولة ";
+
+
+
+//NEW
+"private_request_class" = "طلب حصة خاصة";
+
+"data_ph" = "التاريخ";
+
+"time_ph" = "الوقت";
+
+//"choose_date_ph" = "Choose Date AR"; using on above
+
+"choose_time_ph" = "اختيار الوقت";
+
+"add_attachment_ph" = "المرفقات";
+
+"add_note_ph" = "ملاحظات";
+
+"type_something_ph" = "نص الرسالة...";
+
+
+
+
+
+//MARK: Stats View
+"statistics" = "الإحصائيات";
+"performance_statistics" = "";
+"my_videos_stats" = "المشاهدات";
+"total_practice" = "مجموع التمارين";
+"total_views" = "مجموع المشاهدات";
+"timeline_history" = "سجل النشاط";
+
+"view_timeline" = "عرض سجل النشاط";
+
+
+
+//MARK: SKILLS View
+
+//1
+"skill_analysis" = "تحليل أداء الوحدات";
+"analysis_based" = "";
+
+
+"learn_more" = "";
+
+//forVideo
+"video_watched" = "الفيديوهات المشاهدة";
+"skill_strength" = "تحليل المشاهدات";
+"based_on_your" = "حسب الفيديوهات في كل وحدة";
+
+
+//forQuiz
+"quiz_watched" = "نسبة الإجتياز";
+"quiz_skill_strength" = "تحليل أداء الوحدات";
+"quiz_based_on_your" = "حسب الإجابات الصحيحة";
+
+
+
+
+//MARK: Timeline, Leaderboard and Extinsive
+
+"timeline" = "سجل النشاط";
+"my_recent_activities" = "آخر الأنشطة";
+
+"filter_ph" = "تحديد";
+"subject_ph" = "مادة";
+"type_ph" = "النوع";
+"date_from_ph" = "من تاريخ";
+"date_to_ph" = "إلى تاريخ";
+"find_ph" = "بحث";
+"select_subject_ph" = "اختيار المادة";
+"type_subject_ph" = "اختيار النوع";
+"choose_date_ph" = "اختيار التاريخ";
+
+"day_ph" = "أيام";
+"absent_ph" = "غياب";
+
+"leaderboards" = "لوحة الشرف";
+"ranks_based" = "الترتيب العام للطلاب";  
+
+"extensive_courses" = "الدورات المكثفة";
+"view_details" = "تفاصيل";
+
+
+
+//MARK: Bookmark, Homework
+"bookmark" = "تدوين";
+"see_all_bookmarks" = "مشاهدة جميع التدوينات";
+
+
+
+//MARK: LOGIN VIEW
+"login_with" = "الدخول عبر";
+"resend_code" = "إعادة إرسال رمز التأكيد";
+"submit_ph" = "موافق";
+
+//MARK: REGISTER View
+
+"code" = "الكود";
+"select_country" = "اختيار الدولة";
+"register" = "التسجيل";
+"inside_kuwait" = "الكويت";
+"outside_kuwait" = "خارج الكويت";
+"please_select_country" = "برجاء اختيار الدولة";
+
+
+"kuwait_placeholder" = "الدولة";
+"kuwait" = "الكويت";
+
+"email_ph" = "البريد الإلكتروني";
+"phone_ph" = "رقم الهاتف";
+
+
+
+"private_requests" = "حصصي الخاصة";
+"subscribed_subjects" = "فيديوهاتي";
+"membership_no" = "رقم العضوية";
+
+
+"okay_thanks" = "تم";
+
+"pick_country" = "اختيار الدولة";
+"search_placeholder" = "البحث";
+"pick_faculty" = "اختيار الكلية";
+
+
+
+
+//MARK: Parent View:
+
+//1
+"no_student_added" = "لم يتم إضافة أى طالب حتى الآن يرجى الضغط على إضافة طالب";
+"class_placeholder" = "اختيار الطالب";
+"which_class_you_are" = "اختيار الطالب لتفاصيل اكثر";
+"add" = "إضافة طالب";
+
+
+//2
+"student_rank_ph" = "ترتيب الطالب :";
+"subs_history_ph" = "تاريخ نهاية الاشتراك";
+"videos_watched_ph" = "الفيديوهات المشاهدة";
+"complete_training_ph" = "التمارين المجتازة";
+"last_entry_ph" = "آخر تسجيل دخول :";
+"last_activity_ph" = "اخر نشاط :";
+"videos_ph" = "الفيديوهات";
+"exercises_ph" = "التمارين";
+
+
+//Others's
+"we_are_social" = "تواصل معنا";
+"select_language" = "English";
+"share_our_app_ph" = "Share Spedia";
+
+
+//MARK: University Views:
+
+"faculty_search_here_ph" = "اختيار الكلية";
+
+
+//MARK: Homework View:
+"upload_answer_ph" = "إضافة الحل";
+"download_answer_ph" = "تحميل الواجب";
+"uploaded_ph" = "تم الرفع";
+
+"answer_detail_ph" = "تفاصيل الإجابة";
+
+"request_other_subject" = "طلب جديد";
+
+"please_upload_correct_file" = "امتداد الملفات المسموح رفعها هو doc . Docx.  Pdf";
+
+
+//MARK: Quiz (Question) View:
+"total_answer_ph" = "إجمالي الإجابات";
+"total_skiped_ph" = "إجمالي التخطي";
+"confirm_ph" = "تأكيد";
+"cancel_ph" = "إلغاء";
+
+
+"time_spent_ph" = "المدة";
+"results_score_ph" = "النتيجة";
+
+
+"bookmark_saved" = "تم حفظ الفيديو بنجاح";
+
+
+"you_cant_see_questions" = "نأسف  هذه الخاصيه متاحه فقط للطلاب";
+
+
+
+//============================================================
+//MARK: My Cart View:
+//============================================================
+
+"added_to_cart" = "تم إضافة المادة لسلة الشراء";
+
+"checkout" = "الدفع";
+
+"continue" = "إستمرار";
+
+
+//"coupon" = "كوبون"; NUIT
+
+"total" = "المجموع :"; // for rp view
+
+"cart_is_empty" = "سلة المشتريات فارغة\n برجاء إضافة المواد لسلة المشتريات";
+
+"no_data_found" = "لا توجد بيانات";
+
+"page_not_found_try_later" = "The Page you are looking for was not found. Perhaps you can try later! AR";
+
+"select_subject" = "اختيار المادة";
+
+"enter_counpon_code" = "برجاء إدخال كود الكوبون";
+
+"total_ph" = "المجموع  :";
+
+//"sub_total_ph" = "Sub Total AR  :"; API
+
+//"coupon_discount_ph" = "Coupon Discount AR  :"; API
+
+"apply_ph" = "تفعيل";
+
+"remove_ph" = "حذف";
+
+"proceed_to_checkout_ph" =  "إتمام عملية الشراء";
+
+"privacy_policy" = "سياسة الخصوصية";
+
+
+//MARK: Welcome (Classes) View:
+
+"fullname_top_ph" = "الاسم الثلاثي";
+"school_type_ph" = "المرحلة التعليمية";
+"select_grade_ph" = "اختيار الصف";
+"fullname_ph" = "الاسم كاملاً";
+"please_enter_fullname" = "الرجاء اضافة الإسم الكامل";
+"please_select_school_type" = "الرجاء اختيار المرحلة التعليمية";
+"please_select_grade" = "الرجاء اختيار الصف";
+
+
+//MARK: Subscription (Expire subjects) View
+
+"subscribe_ph" = "الإشتراك";
+
+
+
+//MARK: Teacher Rating / Class Rating View
+
+"did_you_like_class_ph" = "ما هو تقيمك عن موضوع اليوم ؟";
+"let_us_know_what_ph" = "شاركنا برأيك...";
+"send_comment_ph" = "إرسال";
+//"cancel" = "Cancel"; //using above
+
+
+
+"note_count_ph" = "مذكرة";
+"quiz_count_ph" = "تدريب";
+
+
+"the_page_is_empty" = "عفوا ! ، لا يوجد إشعارات جديدة";
+
+
+
+"you_are_not_subs" = "أنت غير مشترك حتى الآن";
+
+"if_you_want_to_subs" = "اذا أردت الإشتراك أو المساعدة الرجاء التواصل مع خدمة العملاء على الأرقام التالية";
+
+"or_ph" = "أو";
+
+
+"playback_speed" = "سرعة التشغيل";
+"normal_ph" = "عادي";
+
+"its_too_soon" = "لا يزال الوقت مبكرا لمشاهدة هذا الفيديو بحسب الخطة الدراسية";
+
+"please_wait_loading" = "الرجاء الإنتظار";
+
+
+"apple_payment_error" = "عملية دفع غير ناجحة ، الرجاء إعادة المحاولة";
+
+"subscribe_ph" = "اشترك";
+
+"buy_now_ph" = "اشترك";
+
+
+//MARK: Live Class Detail View:-
+
+"subscribe_now_ph" = " اشترك الان ";
+
+"free_trail_ph" = "تجربة مجانية";
+
+//MARK: Subscribe Home View:-
+"pending_ph" = "انتظار";
+
+"video_button_ph" = "تﺎﻫﻮﻳﺪﻴﻔﻟا";
+"previous_exam_button_ph" = "ﺔﻘﺑﺎﺳ تارﺎﺒﺘﺧا";
+"answer_key_button_ph" = "بﺎﺘﻜﻟا لﻮﻠﺣ";
+"dairy_button_ph" = "تاركذم";
+
+
+//MARK: Zoom View ( Zoom Sdk ):-
+"LN_MEET_RECORD_ACCEPT_MEETING_TITLE_50557" = "Join a meeting";
+"LN_MEET_RECORD_ACCEPT_MEETING_MESSAGE_50557" = "";
+
+//MARK: Top Gradient View (Left-Right Buttons):-
+"refresh_button_ph" = "احجز الآن";
+
+
+
+"select_lang" = "Select English";
+"lang_no_pop" = "No";
+"lang_yes_pop"  = "Yes";
+
+
+//MARK: -----------------------------------------------
+//MARK: New-AR 08-Aug-2022 (Summer Changes 10th Phase)
+//MARK: -----------------------------------------------
+
+"points_ph" = "نقطة";
+
+//============================================================
+//MARK: PreRecorded Page:
+//============================================================
+"videos_button_ph" = "فيديوهات";
+"notes_button_ph" = "مذكرة";
+"book_solution_button_ph" = "حلول الكتاب";
+"previous_exam_button_ph" = "اختبارات سابقة";
+
+"When you subscribe you get:" = ": ﻒﺻﻮﻟا";
+
+//============================================================
+//MARK: New Notificaiton Page:
+//============================================================
+"mark_as_read_ph" = "تمت المشاهدة";
+"clear_all_ph" = "مسح الكل";
+"mycourse_no_data_found" = "أنت غير مشترك في أي مادة، فصل مباشر أو حصة خاصة.  الرجاء الإختيار";
+"go_home_ph" = "الرئيسية";
+
+"ARE_YOU_SURE_CHANGE_CLASS" = "هل أنت متأكد بأنك تريد تغيير المرحلة، يجب اعادة تسجيل الدخول مرة أخرى؟";
+
+"corrupt_file" = "عذرا الملف تالف";

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="addressListCollCell" id="gTV-IL-0wX" customClass="AddressListCollCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="112"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nv5-GV-Q2t" userLabel="ContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="112"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2s9-TH-wTK" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="67.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" name="AppBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-wH-Nn4" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="10" y="32" width="130" height="39.5"/>
+                                <string key="text">4th floor, sahya building
+opposite grand mosque,
+Kuwait city</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" name="AppPlaceholderGray25"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2x-EX-pbX">
+                                <rect key="frame" x="115" y="0.0" width="35" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="TUr-Lg-nY2"/>
+                                    <constraint firstAttribute="height" constant="35" id="mRC-bx-k7m"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="contentEdgeInsets" minX="11" minY="11" maxX="11" maxY="11"/>
+                                <state key="normal" image="edit_green_icon">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1V-zX-Rkg">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="112"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qU7-wH-Nn4" secondAttribute="trailing" constant="10" id="IMM-kk-gAw"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qU7-wH-Nn4" secondAttribute="bottom" constant="5" id="KMi-e4-yvg"/>
+                            <constraint firstAttribute="trailing" secondItem="X2x-EX-pbX" secondAttribute="trailing" id="WLQ-E0-CYz"/>
+                            <constraint firstItem="X2x-EX-pbX" firstAttribute="top" secondItem="Nv5-GV-Q2t" secondAttribute="top" id="XEz-pR-GrU"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2s9-TH-wTK" secondAttribute="trailing" constant="30" id="YGd-Xj-UIx"/>
+                            <constraint firstItem="2s9-TH-wTK" firstAttribute="leading" secondItem="Nv5-GV-Q2t" secondAttribute="leading" constant="10" id="rTu-FO-Rxa"/>
+                            <constraint firstItem="2s9-TH-wTK" firstAttribute="top" secondItem="Nv5-GV-Q2t" secondAttribute="top" constant="10" id="s4J-1m-Wi7"/>
+                            <constraint firstItem="qU7-wH-Nn4" firstAttribute="top" secondItem="2s9-TH-wTK" secondAttribute="bottom" constant="6" id="vBX-hL-u5x"/>
+                            <constraint firstItem="qU7-wH-Nn4" firstAttribute="leading" secondItem="2s9-TH-wTK" secondAttribute="leading" id="w7p-BN-dnW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Nv5-GV-Q2t" secondAttribute="trailing" id="fDz-Iu-lJx"/>
+                <constraint firstAttribute="bottom" secondItem="Nv5-GV-Q2t" secondAttribute="bottom" id="khC-ef-7Lq"/>
+                <constraint firstItem="Nv5-GV-Q2t" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nHq-6H-Qeo"/>
+                <constraint firstItem="Nv5-GV-Q2t" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vUV-LA-z3V"/>
+            </constraints>
+            <size key="customSize" width="231" height="161"/>
+            <connections>
+                <outlet property="addressLbl" destination="qU7-wH-Nn4" id="QjE-HB-Lib"/>
+                <outlet property="addressTabButton" destination="X1V-zX-Rkg" id="VhE-dI-pUx"/>
+                <outlet property="containerVieww" destination="Nv5-GV-Q2t" id="6J7-7C-1AP"/>
+                <outlet property="editAddressButton" destination="X2x-EX-pbX" id="uuW-YF-YcZ"/>
+                <outlet property="nameLbl" destination="2s9-TH-wTK" id="0mt-1H-cfT"/>
+            </connections>
+            <point key="canvasLocation" x="165.94202898550725" y="131.58482142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="edit_green_icon" width="54" height="54"/>
+        <namedColor name="AppBlack">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppPlaceholderGray25">
+            <color red="0.10199999809265137" green="0.10199999809265137" blue="0.10199999809265137" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,643 @@
+/* 
+  Localizable.strings
+  My Motor
+
+  Created by Xpercube on 07/05/19.
+  Copyright © 2019 Xpercube. All rights reserved.
+*/
+
+
+
+
+"SOME_ERR" = "Something went wrong. please try again later";
+"NETWORK_ERROR" = "No Network";
+"USERNAME_IS_REQUIRED" = "Username is required";
+"INVALID_DATE_OF_BIRTH" = "Please enter a valid date of birth";
+"NO_WHATSAPP" = "Watsapp number not available for this item";
+"NO_SMS" = "Mobile number not available for this item";
+"NO_CALL" = "Mobile number not available for this item";
+"MANDATORY_FIELDS" = "All fields are mandatory";
+"ADD_IMAGE" = "please add images";
+"ANSWER_ALL_QUESTIONS" = "Please answer all questions";
+
+"NO_FAV_BRANDS" = "Please select atleast one brand";
+
+"INAVALID_YEAR" = "Please enter a valid year";
+"MAX_100_WORDS" = "Description should not exceed more than 100 words";
+"MAX_500_LETTERS" = "Description should not exceed more than 500 letters";
+
+"SURE_TO_UPDATE" = "Are you sure you want to update as dealer?";
+
+"BUY_CREDIT" = "Buy Credit";
+"PUBLISH_YOUR_POST" = "Publish Post";
+"NO_ENOUGH_CREDIT" = "You do not have enough credit ";
+
+
+// Localized text
+"MY_PROFILE" = " MY PROFILE";
+"DEALER_ACCOUNT" = "  DEALER ACCOUNT";
+"GO" = "GO";
+"CUSTOMIZE" = "CUSTOMIZE";
+
+"ACTIVE" = "Active";
+"DEACTIVE" = "Cancelled";//"Deactive";
+
+//"Recents" = "Recents";
+
+
+// Font names
+
+"BOLD" = "Nunito-Bold";
+"XTRABOLD" = "Nunito-ExtraBold";
+
+"LIGHT" = "Nunito-Light";
+"XTRALIGHT" = "Nunito-ExtraLight";
+
+"REGULAR" = "Nunito-Regular";
+"SEMIBOLD" = "Nunito-SemiBold";
+
+
+
+
+
+
+
+
+//MARK: Sepdia App Localization
+//Spedia
+
+//MARK: Tab bar Titles
+"My Cart" = "My Cart";
+"home_ph" = "Home";
+"Training Course" = "Training Course";
+"More" = "More";
+"Live Class Tab" = "Live Class";
+"Profile" = "Profile";
+"rp_ph" = "Request Private";
+"Chat" = "Chat";
+"my_course_ph_tab" = "My Courses";
+
+//Validation..
+"valid_email" = "Please enter email";
+
+"valid_username" = "Please enter your username";
+//"enter_username" = "enter your username";
+"username" = "Username";
+
+
+"valid_phone" = "Please enter phone number";
+"valid_fullname" = "Please enter full name";
+"valid_password" = "Please enter password";
+
+"valid_confirm_password" = "Please enter confirm password";
+
+"password_mismatch" = "Password does not match";
+"iagreedTC" = "please check accept terms and conditions";
+
+//Pop up's...
+"coming_soon" = "    Coming Soon!    ";
+
+"privacy_policy" = "Privacy policy";
+
+//..
+"YES" = "Yes";
+"NO" = "No";
+"ARE_YOU_SURE" = "Are you sure you want to logout";
+
+//  Alert or toast
+"ALERT" = "Alert";
+"OK"="Ok";
+"CANCEL"="Cancel";
+
+
+
+//ASK Spedia :
+
+"if_question" = "If you have any questions or ask for help, please contact us and we will reply soon";
+
+"subject" = "Subject";
+
+"type_your_question" = "Type your question";
+
+"your_question" = "Your question";
+
+"attach_file" = "Attach file";
+
+"ask_now" = "ASK now";
+
+"new_message" = "New Message";
+
+"reply" = "Reply";
+
+"ask_spedia" = "Ask Teacher";
+
+
+"please_type_your_question" = "Please type your question";
+
+"please_select_your_subject" = "Please select your subject";
+
+
+
+//Side Menu :
+
+"notification_ph" = "Notification";
+
+
+
+//Mark: Forgot Password:
+"forgot_password" = "Forgot Password";
+
+"if_dont_rember_contact" = "if you don't remember your username, contact customer support";
+
+"forgot_password_reset_sent" = "The new password has been sent to the phone number registered with us.";
+
+"login_now" = "Login Now";
+
+"submitForgot" = "SUBMIT";
+
+"contact_us" = "Contact Us";
+
+"guest_login_ph" = "Login as Guest";
+
+"ARE_YOU_SURE_GUEST" = "Please, register to finish the process";
+
+//MARK: Edit Profile:-
+"delete_ph" = " Delete ";
+"edit_profile" = "Edit Profile";
+
+"delete_title_ph" = "Are you sure you want to delete your account?";
+"delete_msg_ph" = "Around the end of the traditional winter did not, but ships and Holland, the American, was the third rogue two weeks to take place. Around the end of the traditional winter did not, but ships and Holland, the American, was the third rogue two weeks to take place";
+
+//"confirm_password" = "Confirm Password";
+//"create_password" = "Create Password";
+
+"new_password" = "New Password";
+"confirm_new_password" = "Confirm New Password";
+
+
+"phone_number" = "Phone Number";
+
+
+"verify" = "VERIFY";
+"submitEditProfile" = "SUBMIT";
+"uploading" = "Uploading";
+"sent_successfully" = "Sent Successfully";
+
+
+
+
+//Image Library:-
+
+"choose_photo" = "Choose Photo";
+"gallery" = "Gallery";
+"camera" = "Camera";
+
+
+
+//Networkd Erorr:-
+"no_network" = "It Seems No Internet!";
+
+
+//No Recoding Allow:-
+"no_recoding_text" = "NO! Screen Recoding is Allowed!";
+
+
+
+//"poor_connetction" = "Poor network connection detected. Please check your internet connetction.";
+
+"retry" = "RETRY";
+
+
+
+//Custom Alert Box:-
+
+"congo" = "Congratulations!";
+"payment_successful" = "Your payment successful. Now enjoy uniterrepted learning.";
+
+"oh_no" = "Oh! Noo!";
+"payment_unsuccessful" = "Payment unsuccessful.\nPlease try again";
+
+
+
+//MARK: Live Class and Reserved Class:-
+
+"active_course_count" =  " Active Class ";
+
+"view_all" = "View All";
+
+"active_classes" = "Active Classes";
+
+"reserved_classes" = "Reserved Classes";
+
+"open" = "Open";
+
+"close" = "Close";
+
+"reserve_now" = "Reserve Now";
+
+"download" = "Download";
+
+"available" = "Available :";
+
+"reserved" = "Reserved :";
+
+"sold_out" = "SOLDOUT !";
+
+"no_reserved_data" = "You don't have any reserved class";
+//"You didnt reserve any live class session yet. Please reserve your classes now";
+
+"no_active_data" = "You didnt active any live class session yet";
+
+"join" = "JOIN";
+
+"read_more" = "More";
+
+"read_less" = "Read Less";
+
+"read_more_and_less" = "More/Less";
+
+"rp_request_private_button_text" = "Request Private";
+"rp_active_class_button_text" = "Active Classes";
+
+
+
+//MARK: Request Private Class :-
+
+"subject_tft_ph" = "Subject";
+
+"subject_added_to_cart" = "Subject added to cart";
+"request_other_subject" = "Request other subject";
+"goto_cart" = "My Cart";
+
+
+"private_request_class" = "Requests Private Class";
+
+"request_private" = "Request Private Session";
+
+"start" = "START";
+
+"data_ph" = "Date";
+
+"time_ph" = "Time";
+
+//"choose_date_ph" = "Choose Date"; using on above
+
+"choose_time_ph" = "Choose Time";
+
+"no_of_hours" = "No of Hours";
+
+"no_of_hours_tft_ph" = "No of Hours";
+
+"type" = "Type";
+
+"add_attachment_ph" = "Add Attachment";
+
+"add_note_ph" = "Add Note";
+
+"type_something_ph" = "Type something...";
+
+"by_clicking" = "i agree";
+
+"terms_and_condition" = "Terms & Conditions";
+
+"next" = "Next";
+
+"next_onbording_ph" = "التالي";
+
+"finish" = "إنهاء";
+
+"please_wait_loading" = "Please wait file is loading";
+"my_qr_code" = "My QR Code";
+
+
+
+
+
+
+
+//MARK: Stats View
+"statistics" = "Statistics";
+"performance_statistics" = "Performance statistics";
+"my_videos_stats" = "My Videos Stats";
+"total_practice" = "Total Practice";
+"total_views" = "Total Views";
+"timeline_history" = "Timeline History";
+
+"view_timeline" = "View Timeline";
+
+
+
+//MARK: Timeline, Leaderboard and Extinsive
+"timeline" = "Timeline";
+"my_recent_activities" = "My recent activities";
+
+"filter_ph" = "Filters";
+"subject_ph" = "Subject";
+"type_ph" = "Type";
+"date_from_ph" = "Date From";
+"date_to_ph" = "Date To";
+"find_ph" = "Find";
+"select_subject_ph" = "Select Subject";
+"type_subject_ph" = "Select Type";
+"choose_date_ph" = "Choose Date";
+
+"day_ph" = "Day";
+"absent_ph" = "Absent";
+
+
+"leaderboards" = "Leaderboards";
+"ranks_based" = "Ranks based on total points";
+
+"extensive_courses" = "Extensive Courses";
+"view_details" = "View Details";
+
+
+
+//MARK: Bookmark, Homework
+"bookmark" = "Bookmark";
+"see_all_bookmarks" = "See all bookmarks";
+
+
+
+//MARK: SKILLS View
+
+//1
+"skill_analysis" = "Skill Analysis";
+"analysis_based" = "Analysis based on performance";
+
+"learn_more" = "";
+
+
+//forVideo
+"video_watched" = "Watched Videos";
+"skill_strength" = "Videos Analysis";
+"based_on_your" = "Based on watched videos for each unit";
+
+
+//forQuiz
+"quiz_watched" = "Quizzes Percentage";
+"quiz_skill_strength" = "Skill Strength";
+"quiz_based_on_your" = "Based on your correct answers";
+
+
+
+
+
+
+//MARK: LOGIN VIEW
+"login_with" = "Login with";
+"resend_code" = "RESEND CODE";
+"submit_ph" = "SUBMIT";
+
+
+
+//MARK: REGISTER View
+
+"code" = "code";
+"select_country" = "Select Country";
+"register" = "Register";
+"inside_kuwait" = "Inside Kuwait";
+"outside_kuwait" = "Outside Kuwait";
+"please_select_country" = "Please select country";
+
+"kuwait_placeholder" = "Kuwait";
+"kuwait" = "Kuwait";
+
+"email_ph" = "Email";
+"phone_ph" = "Phone";
+
+
+"private_requests" = "Private Requests";
+"subscribed_subjects" = "Subscribed Subjects";
+"membership_no" = "Membership No";
+
+
+"okay_thanks" = "OK";
+
+"pick_country" = "Pick Your Country";
+"search_placeholder" = "Search";
+"pick_faculty" = "Pick Your Faculty";
+
+
+
+//MARK: Parent View:
+
+//1
+"no_student_added" = "There no student add with you account please scan qr code";
+"class_placeholder" = "Class";
+"which_class_you_are" = "Which class are you currently on?";
+"add" = "ADD";
+
+"invalid_qr_code" = "Invalid QR Code";
+"qr_code_error" = "QR code is not valid , please check & try again";
+
+
+//2
+"student_rank_ph" = "Student rank :";
+"subs_history_ph" = "Subscription History";
+"videos_watched_ph" = "Videos watched";
+"complete_training_ph" = "Complete training";
+"last_entry_ph" = "Last entry day  :";
+"last_activity_ph" = "Last activity  :";
+"videos_ph" = "Videos";
+"exercises_ph" = "Exercises";
+
+
+//Others
+"we_are_social" = "We are social";
+"change_language" = "Change Language";
+"english" = "English";
+"arabic" = "Arabic";
+"select_language" = "العربية";
+
+"share_our_app_ph" = "Share Spedia";
+
+
+//MARK: University Views:
+
+"faculty_search_here_ph" = "Faculty Search Here";
+
+
+
+//MARK: Homework View:
+"upload_answer_ph" = "Upload Answers";
+"download_answer_ph" = "Download Questions";
+"uploaded_ph" = "Uploaded";
+
+"answer_detail_ph" = "Answer Detail";
+
+"request_other_subject" = "Request New";
+
+"please_upload_correct_file" = "Please upload a file with  doc,docx,pdf extension";
+
+//MARK: Quiz (Question) View:
+
+"total_answer_ph" = "Total Answer";
+"total_skiped_ph" = "Total Skip";
+"confirm_ph" = "Confirm";
+"cancel_ph" = "Cancel";
+
+"time_spent_ph" = "Time Spent";
+"results_score_ph" = "Results Score";
+
+"bookmark_saved" = "Video Successfully Saved";
+
+"you_cant_see_questions" = "Sorry this feature for student only";
+
+
+
+
+//============================================================
+//MARK: My Cart View:
+//============================================================
+
+"added_to_cart" = "Successfully added to cart";
+
+"checkout" = "Checkout";
+
+"continue" = "Continue";
+
+
+//"coupon" = "COUPON"; NUIT
+
+"total" = "Total:"; //for rp view
+
+"cart_is_empty" = "You didnt added any subject to your cart!\nPlease choose your subject you like to study";
+
+"no_data_found" = "No Data Found";
+
+"page_not_found_try_later" = "The Page you are looking for was not found. Perhaps you can try later!";
+
+"enter_counpon_code" = "Please enter your coupon code";
+
+"select_subject" = "SELECT SUBJECT";
+
+"total_ph" = "Total  :";
+
+//"sub_total_ph" = "Sub Total  :"; API
+
+//"coupon_discount_ph" = "Coupon Discount  :"; API
+
+"apply_ph" = "Apply";
+
+"remove_ph" = "Remove";
+
+"proceed_to_checkout_ph" = "PROCEED TO CHECKOUT";
+
+//MARK: Welcome (Classes) View:
+
+"fullname_top_ph" = "Name";
+"school_type_ph" = "School Type";
+"select_grade_ph" = "Select Grade";
+"fullname_ph" = "Full Name";
+"please_enter_fullname" = "Please enter your fullname";
+"please_select_school_type" = "Please select your school type";
+"please_select_grade" = "Please select your grade";
+
+
+
+
+//MARK: Subscription (Expire subjects) View
+
+"subscribe_ph" = "Subscribe";
+
+
+
+//MARK: Teacher Rating / Class Rating View
+
+"did_you_like_class_ph" = "Did you like the Class?";
+"let_us_know_what_ph" = "Let us know what you think";
+"send_comment_ph" = "Send Comment";
+//"cancel" = "Cancel"; //using above
+
+
+"note_count_ph" = "Note";
+"quiz_count_ph" = "Quiz";
+
+"the_page_is_empty" = "The page is empty";
+
+
+
+
+"you_are_not_subs" = "You are not subscribed";
+
+"if_you_want_to_subs" = "If you want to subscribe or help please contact our customer service";
+
+"or_ph" = "or";
+
+
+"playback_speed" = "Playback speed";
+"normal_ph" = "Normal";
+
+
+"its_too_soon" = "Its still too early to this video according to your school curriculum";
+
+
+"please_wait_loading" = "Please wait...";
+
+"apple_payment_error" = "Failed payment, please check your details and try again";
+
+"subscribe_ph" = "Subscribe";
+
+"buy_now_ph" = "Buy Now";
+
+
+//MARK: Live Class Detail View:-
+
+"subscribe_now_ph" = "Subscribe Now";
+
+"free_trail_ph" = "Free Trial";
+
+//MARK: Subscribe Home View:-
+"pending_ph" = "Pending";
+
+"video_button_ph" = "Videos";
+"previous_exam_button_ph" = "Previous Exams";
+"answer_key_button_ph" = "Answer Key";
+"dairy_button_ph" = "Diary";
+
+
+//MARK: Zoom View ( Zoom Sdk ):-
+"LN_MEET_RECORD_ACCEPT_MEETING_TITLE_50557" = "Join a meeting";
+"LN_MEET_RECORD_ACCEPT_MEETING_MESSAGE_50557" = "";
+
+
+
+//MARK: Top Gradient View (Left-Right Buttons):-
+"refresh_button_ph" = "Active Classes";
+
+
+"select_lang" = "اختار اللغة العربية";
+"lang_no_pop" = "لا";
+"lang_yes_pop"  = "نعم";
+
+
+//MARK: -----------------------------------------------
+//MARK: New-EN 08-Aug-2022 (Summer Changes 10th Phase)
+//MARK: -----------------------------------------------
+
+"points_ph" = "Points";
+
+
+//============================================================
+//MARK: PreRecorded Page:
+//============================================================
+"videos_button_ph" = "Videos";
+"notes_button_ph" = "Notes";
+"book_solution_button_ph" = "Book Solutions";
+"previous_exam_button_ph" = "Previous exams";
+
+"When you subscribe you get:" = "When you subscribe you get:";
+
+
+//============================================================
+//MARK: New Notificaiton Page:
+//============================================================
+"mark_as_read_ph" = "Mark As Read";
+"clear_all_ph" = "Clear All";
+"mycourse_no_data_found" = "You have not subscribed any subject, live class or private class.Please select one";
+"go_home_ph" = "Go Home";
+
+"ARE_YOU_SURE_CHANGE_CLASS" = "Are you sure you want to change your grade now, you need to login again?";
+
+"corrupt_file" = "Sorry file has been corrupted";

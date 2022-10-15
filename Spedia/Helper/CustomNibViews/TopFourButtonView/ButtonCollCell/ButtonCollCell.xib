@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="buttonCollCell" id="gTV-IL-0wX" customClass="ButtonCollCell" customModule="Spedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="48"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Olq-UX-tKw" userLabel="ContainerView">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="48"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ja8-yl-JDX" customClass="CustomLabel" customModule="Spedia" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="9" width="164" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBk-ty-prC">
+                                <rect key="frame" x="0.0" y="9" width="164" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8tE-d0-eDE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ja8-yl-JDX" firstAttribute="top" secondItem="sBk-ty-prC" secondAttribute="top" id="1D8-el-Fug"/>
+                            <constraint firstAttribute="trailing" secondItem="sBk-ty-prC" secondAttribute="trailing" id="BOl-7H-ROA"/>
+                            <constraint firstItem="sBk-ty-prC" firstAttribute="centerY" secondItem="Olq-UX-tKw" secondAttribute="centerY" id="gyc-lu-G4v"/>
+                            <constraint firstItem="ja8-yl-JDX" firstAttribute="bottom" secondItem="sBk-ty-prC" secondAttribute="bottom" id="n1k-a6-sb6"/>
+                            <constraint firstItem="ja8-yl-JDX" firstAttribute="leading" secondItem="sBk-ty-prC" secondAttribute="leading" id="nXj-WU-qfa"/>
+                            <constraint firstItem="ja8-yl-JDX" firstAttribute="trailing" secondItem="sBk-ty-prC" secondAttribute="trailing" id="sNH-ft-Tb8"/>
+                            <constraint firstItem="sBk-ty-prC" firstAttribute="leading" secondItem="Olq-UX-tKw" secondAttribute="leading" id="unp-lA-mPf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Olq-UX-tKw" secondAttribute="trailing" id="2CA-oK-LXZ"/>
+                <constraint firstAttribute="bottom" secondItem="Olq-UX-tKw" secondAttribute="bottom" id="9hX-bn-tfT"/>
+                <constraint firstItem="Olq-UX-tKw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OBF-0l-n5s"/>
+                <constraint firstItem="Olq-UX-tKw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xDV-Ot-ccN"/>
+            </constraints>
+            <size key="customSize" width="164" height="47"/>
+            <connections>
+                <outlet property="tapButton" destination="sBk-ty-prC" id="A2P-Yv-KRR"/>
+                <outlet property="titleLabel" destination="ja8-yl-JDX" id="rqI-fh-pKx"/>
+            </connections>
+            <point key="canvasLocation" x="116" y="103"/>
+        </collectionViewCell>
+    </objects>
+</document>
